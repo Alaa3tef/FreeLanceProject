@@ -1,0 +1,397 @@
+<div class="container mb-5" style="margin-top: 8%;">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">
+      Dashboard
+    </h2>
+
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card p-3 mb-2">
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <h3 class="heading"> Total Man Hours </h3>
+            <h5 class="heading"> Yearly Hours </h5>
+          </div>
+          <div class="d-flex align-items-center justify-content-between text-center">
+            <div class="me-3">
+              <h3> {{TotalManHours}} </h3>
+              <!-- <a routerLink="/BopTable">Show Data</a> -->
+            </div>
+            <div>
+              <i class="fa-regular fa-clock fa-spin h1" style="color: #012970;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Incidents </h3>
+          <h5> {{accidentcount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/Accidents">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Stop Cards </h3>
+          <h5> {{stopCardcount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/Stopcard">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Safe Journey Plan </h3>
+          <h5> {{JMPcount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/SJPTable">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Accident Causes </h3>
+          <h5> {{accidentCausescount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/AccidentCauses">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Classifications </h3>
+          <h5> {{classificationcount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/Classification">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Pre-Tour Safety Meeting </h3>
+          <h5> {{PTSMcount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/PTSM">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Rig Move Performance Evaluation </h3>
+          <h5> {{rigMovePerformancecount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/RigPerformance">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <!-- <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Daily Personnel on board </h3>
+          <h5> {{BOPcount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/BopTable">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+    <!-- <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Comminucation Methods </h3>
+          <h5> {{comminucationMethodcount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/ComminucationMethod">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Drivers </h3>
+          <h5> {{drivercount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/Driver">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Passengers </h3>
+          <h5> {{passengercount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/Passenger">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Prevention Categories </h3>
+          <h5> {{preventionCategorycount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/PreventionCategory">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> QHSE Positions </h3>
+          <h5> {{QHSEPositioncount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/QHSEPosition">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> QHSE Names </h3>
+          <h5> {{QHSEPositionNamecount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/QHSEPositionName">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Reported By Names </h3>
+          <h5> {{reportedByNamecount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/ReportedByName">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Reported By Positions </h3>
+          <h5> {{reportedByPositioncount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/ReportedByPosition">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Rigs </h3>
+          <h5> {{rigcount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/Rig">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Route Names </h3>
+          <h5> {{routeNamecount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/RouteName">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Tool Pusher Positions </h3>
+          <h5> {{toolPusherPositioncount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/ToolPusherPosition">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Tool Pusher Names </h3>
+          <h5> {{toolPusherPositionNamecount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/ToolPusherPositionName">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Type of Injuries </h3>
+          <h5> {{typeOfInjurycount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/TypeOfInjury">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Type of Observiation Categories</h3>
+          <h5> {{typeOfObserviationcount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/TypeOfObserviationCategory">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Vehicles </h3>
+          <h5> {{vehiclecount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/Vehicle">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-2">
+        <div>
+          <h3 class="heading"> Violation Categories </h3>
+          <h5> {{violationCategorycount}} Record </h5>
+          <div class="mt-5">
+            <div class="mt-3">
+              <span class="text1">
+                <a routerLink="/Dashboard/ViolationCategory">Show Data</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <a class="mt-3 fs-5" routerLink="/SubDashboard" style="width: 100%; text-align: right;">Sub Dashboard <i
+        class="fa-solid fa-arrow-right fa-fade"></i></a>
+  </div>
+</div>

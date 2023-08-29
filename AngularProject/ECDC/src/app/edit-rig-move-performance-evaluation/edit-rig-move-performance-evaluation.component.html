@@ -1,0 +1,428 @@
+<div class="container mb-5" style="margin-top: 8%;">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">
+      Rig Move Performance Evaluation Form
+    </h2>
+  </div>
+
+
+
+
+  <div class="row">
+    <form [formGroup]="RigPerformanceForm" id="print-section" (ngSubmit)="submitData()"
+      class="col-md-10 mx-auto d-flex flex-wrap">
+
+      <table class="table">
+        <tr>
+          <td>
+            <div class="form-group">
+              <label class="form-label">Rig Number : </label>
+              <select name="rigId" formControlName="rigId" [(ngModel)]="RigPerformance.rigId" id="rigId"
+                class="form-select">
+                <option value="" disabled selected>Choose Rig Number</option>
+                <option *ngFor="let item of rigList" value="{{item.id}}">Rig-{{item.number}}</option>
+              </select>
+
+
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label">Old Well Name : </label>
+              <input type="text" name="oldWellName" [(ngModel)]="RigPerformance.oldWellName"
+                formControlName="oldWellName" class="form-control" />
+              <div *ngIf="oldWellName?.invalid && (oldWellName?.dirty || oldWellName?.touched)">
+                <small class="text-danger" *ngIf="oldWellName?.errors?.['required']">
+                  Old Well Name is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label">New Well Name : </label>
+              <input type="text" name="newWellName" [(ngModel)]="RigPerformance.newWellName"
+                formControlName="newWellName" class="form-control" />
+              <div *ngIf="newWellName?.invalid && (newWellName?.dirty || newWellName?.touched)">
+                <small class="text-danger" *ngIf="newWellName?.errors?.['required']">
+                  New Well Name is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+
+          <td>
+            <div class="form-group">
+              <label class="form-label">Move Distance (km) : </label>
+              <input type="number" name="moveDistance" [(ngModel)]="RigPerformance.moveDistance"
+                formControlName="moveDistance" class="form-control" />
+              <div *ngIf="moveDistance?.invalid && (moveDistance?.dirty || moveDistance?.touched)">
+                <small class="text-danger" *ngIf="moveDistance?.errors?.['required']">
+                  Move Distance is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label">Release Date : </label>
+              <input type="date" name="releaseDate" [(ngModel)]="RigPerformance.releaseDate" (input)="onInput($event)"
+                [ngModel]="RigPerformance.releaseDate| date: 'yyyy-MM-dd'" formControlName="releaseDate"
+                class="form-control" />
+              <div *ngIf="releaseDate?.invalid && (releaseDate?.dirty || releaseDate?.touched)">
+                <small class="text-danger" *ngIf="releaseDate?.errors?.['required']">
+                  Release Date is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label">Time : </label>
+              <input type="time" name="releaseTime" [(ngModel)]="RigPerformance.releaseTime" (input)="onInput($event)"
+                formControlName="releaseTime" class="form-control" />
+              <div *ngIf="releaseTime?.invalid && (releaseTime?.dirty || releaseTime?.touched)">
+                <small class="text-danger" *ngIf="releaseTime?.errors?.['required']">
+                  Release Time is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+
+
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label class="form-label">Acceptance Date : </label>
+              <input type="date" name="acceptanceDate" [(ngModel)]="RigPerformance.acceptanceDate" (input)="onInput($event)"
+                [ngModel]="RigPerformance.acceptanceDate| date: 'yyyy-MM-dd'" formControlName="acceptanceDate"
+                class="form-control" />
+              <div *ngIf="acceptanceDate?.invalid && (acceptanceDate?.dirty || acceptanceDate?.touched)">
+                <small class="text-danger" *ngIf="acceptanceDate?.errors?.['required']">
+                  Acceptance Date is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label">Time : </label>
+              <input type="time" name="acceptanceTime" [(ngModel)]="RigPerformance.acceptanceTime" (input)="onInput($event)"
+                formControlName="acceptanceTime" class="form-control" />
+              <div *ngIf="acceptanceTime?.invalid && (acceptanceTime?.dirty || acceptanceTime?.touched)">
+                <small class="text-danger" *ngIf="acceptanceTime?.errors?.['required']">
+                  Acceptance Time is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label">Actual Move Days : </label>
+              <input type="text" name="actualMoveTime" [(ngModel)]="DateDiff" [(ngModel)]="RigPerformance.actualMoveTime"
+                formControlName="actualMoveTime" class="form-control" readonly />
+            </div>
+          </td>
+        </tr>
+
+
+
+        <tr>
+          <td colspan="2">
+            <div class="form-group">
+              <label class="form-label">Diesel Consumed : </label>
+              <input type="number" name="dieselConsumed" [(ngModel)]="RigPerformance.dieselConsumed"
+                formControlName="dieselConsumed" class="form-control" />
+              <div *ngIf="dieselConsumed?.invalid && (dieselConsumed?.dirty || dieselConsumed?.touched)">
+                <small class="text-danger" *ngIf="dieselConsumed?.errors?.['required']">
+                  Diesel Consumed is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <label>Move Target Achieved ? </label>
+            <br>
+            <div class="ms-1">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" [(ngModel)]="RigPerformance.targetArchived"
+                  formControlName="targetArchived" type="radio" name="targetArchived" id="targetArchived" value="Yes">
+                <label class="form-check-label" for="targetArchived">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" [(ngModel)]="RigPerformance.targetArchived"
+                  formControlName="targetArchived" type="radio" name="targetArchived" id="targetArchived" value="No">
+                <label class="form-check-label" for="targetArchived">No</label>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+
+            <div class="form-group">
+              <label class="form-label">Budget Target Achievement : </label>
+              <input type="number"  name="budgetTargetTotalDay" [(ngModel)]="RigPerformance.budgetTargetTotalDay"
+                formControlName="budgetTargetTotalDay" class="form-control" placeholder="Day" />
+
+              <div
+                *ngIf="budgetTargetTotalDay?.invalid && (budgetTargetTotalDay?.dirty || budgetTargetTotalDay?.touched)">
+                <small class="text-danger" *ngIf="budgetTargetTotalDay?.errors?.['pattern']">
+                  Budget Target Day is not valid
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label"></label>
+              <input type="number" name="budgetTargetTotalMoney" [(ngModel)]="RigPerformance.budgetTargetTotalMoney"
+                formControlName="budgetTargetTotalMoney" class="form-control" placeholder="L.E" />
+
+              <div
+                *ngIf="budgetTargetTotalMoney?.invalid && (budgetTargetTotalMoney?.dirty || budgetTargetTotalMoney?.touched)">
+                <small class="text-danger" *ngIf="budgetTargetTotalMoney?.errors?.['required']">
+                  Budget Target Money is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <table class="table">
+        <tr class="text-center">
+          <th colspan="3"> Problem Faced During Rig move </th>
+        </tr>
+        <tr>
+          <td>
+            <div class="form-group">
+
+              <input type="text" name="item1" formControlName="item1"
+                class="form-control" placeholder="Item"  readonly/>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+
+              <input type="text" name="recommendationProblemRepeated1"
+                [(ngModel)]="RigPerformance.recommendationProblemRepeated1"
+                formControlName="recommendationProblemRepeated1" class="form-control"
+                placeholder="Recommendation to avoid problem repeated" />
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <input type="number" min="0" step="0.01" name="timeLostProblem1" [(ngModel)]="RigPerformance.timeLostProblem1" formControlName="timeLostProblem1"
+                class="form-control" placeholder="Time Lost Problem" />
+              <div *ngIf="timeLostProblem1?.invalid && (timeLostProblem1?.dirty || timeLostProblem1?.touched)">
+                <small class="text-danger" *ngIf="timeLostProblem1?.errors?.['pattern']">
+                  Time Lost Problem isn't valid
+                  <br>
+                  ex:6.05
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+
+          <td colspan="3">
+            <div class="form-group">
+
+              <input type="text" name="problemDescription1" [(ngModel)]="RigPerformance.problemDescription1"
+                formControlName="problemDescription1" class="form-control" placeholder="Problem Description" />
+            </div>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td>
+            <div class="form-group">
+
+              <input type="text" name="item2" formControlName="item2"
+                class="form-control" placeholder="Item" readonly/>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+
+              <input type="text" name="recommendationProblemRepeated2"
+                [(ngModel)]="RigPerformance.recommendationProblemRepeated2"
+                formControlName="recommendationProblemRepeated2" class="form-control"
+                placeholder="Recommendation to avoid problem repeated" />
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <input type="number" min="0" step="0.01" name="timeLostProblem2" [(ngModel)]="RigPerformance.timeLostProblem2" formControlName="timeLostProblem2"
+                class="form-control" placeholder="Time Lost Problem" />
+              <div *ngIf="timeLostProblem2?.invalid && (timeLostProblem2?.dirty || timeLostProblem2?.touched)">
+                <small class="text-danger" *ngIf="timeLostProblem2?.errors?.['pattern']">
+                  Time Lost Problem isn't valid
+                  <br>
+                  ex:6.05
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+
+          <td colspan="3">
+            <div class="form-group">
+
+              <input type="text" name="problemDescription2" [(ngModel)]="RigPerformance.problemDescription2"
+                formControlName="problemDescription2" class="form-control" placeholder="Problem Description" />
+            </div>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td>
+            <div class="form-group">
+
+              <input type="text" name="item3" formControlName="item3"
+                class="form-control" placeholder="Item" readonly />
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+
+              <input type="text" name="recommendationProblemRepeated3"
+                [(ngModel)]="RigPerformance.recommendationProblemRepeated3"
+                formControlName="recommendationProblemRepeated3" class="form-control"
+                placeholder="Recommendation to avoid problem repeated" />
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+
+              <input type="text" name="timeLostProblem3" [(ngModel)]="RigPerformance.timeLostProblem3"
+                formControlName="timeLostProblem3" class="form-control" placeholder="Time Lost Problem" />
+              <div *ngIf="timeLostProblem3?.invalid && (timeLostProblem3?.dirty || timeLostProblem3?.touched)">
+                <small class="text-danger" *ngIf="timeLostProblem3?.errors?.['pattern']">
+                  Time Lost Problem isn't valid
+                  <br>
+                  ex:6.05
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+
+          <td colspan="3">
+            <div class="form-group">
+
+              <input type="text" name="problemDescription3" [(ngModel)]="RigPerformance.problemDescription3"
+                formControlName="problemDescription3" class="form-control" placeholder="Problem Description" />
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+
+              <input type="text" name="item4" formControlName="item4"
+                class="form-control" placeholder="Item" readonly/>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+
+              <input type="text" name="recommendationProblemRepeated4"
+                [(ngModel)]="RigPerformance.recommendationProblemRepeated4"
+                formControlName="recommendationProblemRepeated4" class="form-control"
+                placeholder="Recommendation to avoid problem repeated" />
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+
+              <input type="text" name="timeLostProblem4" [(ngModel)]="RigPerformance.timeLostProblem4"
+                formControlName="timeLostProblem4" class="form-control" placeholder="Time Lost Problem" />
+              <div *ngIf="timeLostProblem4?.invalid && (timeLostProblem4?.dirty || timeLostProblem4?.touched)">
+                <small class="text-danger" *ngIf="timeLostProblem4?.errors?.['pattern']">
+                  Time Lost Problem isn't valid
+                  <br>
+                  ex:6.05
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+
+          <td colspan="3">
+            <div class="form-group">
+
+              <input type="text" name="problemDescription4" [(ngModel)]="RigPerformance.problemDescription4"
+                formControlName="problemDescription4" class="form-control" placeholder="Problem Description" />
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+
+              <input type="text" name="item5" formControlName="item5"
+                class="form-control" placeholder="Item" readonly/>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+
+              <input type="text" name="recommendationProblemRepeated5"
+                [(ngModel)]="RigPerformance.recommendationProblemRepeated5"
+                formControlName="recommendationProblemRepeated5" class="form-control"
+                placeholder="Recommendation to avoid problem repeated" />
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+
+              <input type="text" name="timeLostProblem5" [(ngModel)]="RigPerformance.timeLostProblem5"
+                formControlName="timeLostProblem5" class="form-control" placeholder="Time Lost Problem" />
+              <div *ngIf="timeLostProblem5?.invalid && (timeLostProblem5?.dirty || timeLostProblem5?.touched)">
+                <small class="text-danger" *ngIf="timeLostProblem5?.errors?.['pattern']">
+                  Time Lost Problem isn't valid
+                  <br>
+                  ex:6.05
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+
+          <td colspan="3">
+            <div class="form-group">
+
+              <input type="text" name="problemDescription5" [(ngModel)]="RigPerformance.problemDescription5"
+                formControlName="problemDescription5" class="form-control" placeholder="Problem Description" />
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <input type="submit" [disabled]="RigPerformanceForm.invalid" class="btn btn-success me-3" value="Update" />
+      <input routerLink="/PrintRigPerformance" type="submit" class="btn btn-primary" value="Show Data">
+    </form>
+    <!-- <label class="form-label mt-5 ms-5">Reoprt No.ECDC-QHSE-FM-12</label> -->
+  </div>
+</div>

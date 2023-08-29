@@ -1,0 +1,1188 @@
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\appsettings.Development.json
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\appsettings.json
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\TempProject.staticwebassets.runtime.json
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\TempProject.exe
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\TempProject.deps.json
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\TempProject.runtimeconfig.json
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\TempProject.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\TempProject.pdb
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Azure.Core.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Azure.Identity.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Humanizer.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNet.Identity.Core.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNet.SignalR.Core.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.JsonPatch.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.OpenApi.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Razor.Language.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Build.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Build.Framework.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.CSharp.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.Elfie.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.Features.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.Razor.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.Scripting.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.Workspaces.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Data.SqlClient.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.DiaSymReader.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.EntityFrameworkCore.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.EntityFrameworkCore.Design.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.DependencyModel.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Identity.Core.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Identity.Stores.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Identity.Client.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.IdentityModel.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.IdentityModel.Logging.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.IdentityModel.Protocols.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.IdentityModel.Tokens.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.NET.StringTools.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.OpenApi.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Owin.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Owin.Security.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.SqlServer.Server.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\dotnet-aspnet-codegenerator-design.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Win32.SystemEvents.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Mono.TextTemplating.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Newtonsoft.Json.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Newtonsoft.Json.Bson.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\NuGet.Common.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\NuGet.Configuration.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\NuGet.DependencyResolver.Core.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\NuGet.Frameworks.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\NuGet.LibraryModel.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\NuGet.Packaging.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\NuGet.ProjectModel.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\NuGet.Protocol.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\NuGet.Versioning.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Owin.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Swashbuckle.AspNetCore.Swagger.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.CodeDom.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Composition.AttributedModel.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Composition.Convention.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Composition.Hosting.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Composition.Runtime.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Composition.TypedParts.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Configuration.ConfigurationManager.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Drawing.Common.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IdentityModel.Tokens.Jwt.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Memory.Data.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Reflection.MetadataLoadContext.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Caching.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.ProtectedData.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.Permissions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Windows.Extensions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.CSharp.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualBasic.Core.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualBasic.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Win32.Primitives.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Win32.Registry.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.AppContext.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Buffers.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Collections.Concurrent.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Collections.Immutable.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Collections.NonGeneric.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Collections.Specialized.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Collections.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.ComponentModel.Annotations.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.ComponentModel.DataAnnotations.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.ComponentModel.EventBasedAsync.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.ComponentModel.Primitives.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.ComponentModel.TypeConverter.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.ComponentModel.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Configuration.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Console.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Core.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Data.Common.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Data.DataSetExtensions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Data.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.Contracts.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.Debug.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.DiagnosticSource.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.FileVersionInfo.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.Process.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.StackTrace.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.TextWriterTraceListener.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.Tools.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.TraceSource.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.Tracing.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Drawing.Primitives.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Drawing.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Dynamic.Runtime.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Formats.Asn1.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Formats.Tar.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Globalization.Calendars.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Globalization.Extensions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Globalization.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.Compression.Brotli.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.Compression.FileSystem.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.Compression.ZipFile.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.Compression.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.FileSystem.AccessControl.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.FileSystem.DriveInfo.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.FileSystem.Primitives.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.FileSystem.Watcher.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.FileSystem.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.IsolatedStorage.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.MemoryMappedFiles.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.Pipes.AccessControl.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.Pipes.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.UnmanagedMemoryStream.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Linq.Expressions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Linq.Parallel.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Linq.Queryable.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Linq.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Memory.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.Http.Json.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.Http.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.HttpListener.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.Mail.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.NameResolution.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.NetworkInformation.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.Ping.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.Primitives.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.Quic.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.Requests.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.Security.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.ServicePoint.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.Sockets.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.WebClient.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.WebHeaderCollection.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.WebProxy.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.WebSockets.Client.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.WebSockets.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Net.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Numerics.Vectors.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Numerics.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.ObjectModel.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Private.CoreLib.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Private.DataContractSerialization.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Private.Uri.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Private.Xml.Linq.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Private.Xml.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Reflection.DispatchProxy.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Reflection.Emit.ILGeneration.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Reflection.Emit.Lightweight.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Reflection.Emit.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Reflection.Extensions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Reflection.Metadata.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Reflection.Primitives.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Reflection.TypeExtensions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Reflection.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Resources.Reader.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Resources.ResourceManager.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Resources.Writer.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.CompilerServices.Unsafe.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.CompilerServices.VisualC.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Extensions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Handles.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.InteropServices.JavaScript.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.InteropServices.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Intrinsics.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Loader.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Numerics.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Serialization.Formatters.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Serialization.Json.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Serialization.Primitives.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Serialization.Xml.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Serialization.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Runtime.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.AccessControl.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.Claims.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.Algorithms.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.Cng.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.Csp.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.Encoding.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.OpenSsl.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.Primitives.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.X509Certificates.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.Principal.Windows.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.Principal.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.SecureString.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.ServiceModel.Web.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.ServiceProcess.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Text.Encoding.CodePages.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Text.Encoding.Extensions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Text.Encoding.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Text.Encodings.Web.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Text.Json.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Text.RegularExpressions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Threading.Channels.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Threading.Overlapped.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Threading.Tasks.Dataflow.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Threading.Tasks.Extensions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Threading.Tasks.Parallel.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Threading.Tasks.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Threading.Thread.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Threading.ThreadPool.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Threading.Timer.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Threading.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Transactions.Local.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Transactions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.ValueTuple.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Web.HttpUtility.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Web.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Windows.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Xml.Linq.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Xml.ReaderWriter.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Xml.Serialization.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Xml.XDocument.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Xml.XPath.XDocument.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Xml.XPath.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Xml.XmlDocument.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Xml.XmlSerializer.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Xml.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\WindowsBase.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\mscorlib.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\netstandard.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Antiforgery.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authentication.Core.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authentication.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authorization.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Components.Authorization.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Components.Forms.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Components.Server.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Components.Web.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Components.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.CookiePolicy.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Cors.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.DataProtection.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Diagnostics.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.HostFiltering.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Hosting.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Http.Connections.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Http.Extensions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Http.Features.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Http.Results.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Http.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.HttpLogging.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.HttpOverrides.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Identity.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Localization.Routing.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Localization.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Metadata.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.Core.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.OutputCaching.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.RateLimiting.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Razor.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.RequestDecompression.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.ResponseCaching.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.ResponseCompression.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Rewrite.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Routing.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Server.IIS.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Session.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.SignalR.Common.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.SignalR.Core.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.SignalR.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.StaticFiles.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.WebSockets.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.WebUtilities.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Caching.Memory.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.Binder.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.Ini.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.Json.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.Xml.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.DependencyInjection.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Features.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.FileProviders.Composite.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.FileProviders.Physical.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Hosting.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Http.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Localization.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Localization.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.Configuration.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.Console.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.Debug.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.EventLog.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.EventSource.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.TraceSource.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.ObjectPool.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Options.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Primitives.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.WebEncoders.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.JSInterop.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.Net.Http.Headers.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.EventLog.Messages.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.EventLog.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.Pipelines.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.Pkcs.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.Xml.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.Threading.RateLimiting.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\System.IO.Compression.Native.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\clretwrc.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\clrgc.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\clrjit.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\coreclr.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\createdump.exe
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\hostfxr.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\hostpolicy.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\mscordaccore.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\mscordaccore_amd64_amd64_7.0.323.6910.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\mscordbi.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\mscorrc.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\msquic.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\bin\Release\net7.0\win-x64\aspnetcorev2_inprocess.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\TempProject.csproj.AssemblyReference.cache
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\TempProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\TempProject.AssemblyInfoInputs.cache
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\TempProject.AssemblyInfo.cs
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\TempProject.csproj.CoreCompileInputs.cache
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\TempProject.MvcApplicationPartsAssemblyInfo.cs
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\TempProject.MvcApplicationPartsAssemblyInfo.cache
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\staticwebassets\msbuild.TempProject.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\staticwebassets\msbuild.build.TempProject.props
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\staticwebassets\msbuild.buildMultiTargeting.TempProject.props
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\staticwebassets\msbuild.buildTransitive.TempProject.props
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\staticwebassets.pack.json
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\staticwebassets.build.json
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\staticwebassets.development.json
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\scopedcss\bundle\TempProject.styles.css
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\TempProject.csproj.CopyComplete
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\TempProject.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\refint\TempProject.dll
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\TempProject.pdb
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\TempProject.genruntimeconfig.cache
+D:\ITI materials\freelancer\Alaa job\projects\project 2023-7-15\TempProject\obj\Release\net7.0\win-x64\ref\TempProject.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\appsettings.Development.json
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\appsettings.json
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\TempProject.staticwebassets.runtime.json
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\TempProject.exe
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\TempProject.deps.json
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\TempProject.runtimeconfig.json
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\TempProject.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\TempProject.pdb
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Azure.Core.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Azure.Identity.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Humanizer.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNet.Identity.Core.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNet.SignalR.Core.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.JsonPatch.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.OpenApi.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Razor.Language.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Bcl.AsyncInterfaces.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Build.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Build.Framework.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.CSharp.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.CSharp.Features.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.Elfie.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.Features.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.Razor.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.Scripting.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.Workspaces.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Data.SqlClient.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.DiaSymReader.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.DotNet.Scaffolding.Shared.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.EntityFrameworkCore.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.EntityFrameworkCore.Design.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.EntityFrameworkCore.Relational.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.DependencyModel.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Identity.Client.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.IdentityModel.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.IdentityModel.Logging.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.IdentityModel.Protocols.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.IdentityModel.Tokens.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.NET.StringTools.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.OpenApi.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Owin.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Owin.Security.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.SqlServer.Server.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\dotnet-aspnet-codegenerator-design.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Win32.SystemEvents.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Mono.TextTemplating.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Newtonsoft.Json.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Newtonsoft.Json.Bson.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\NuGet.Common.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\NuGet.Configuration.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\NuGet.DependencyResolver.Core.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\NuGet.Frameworks.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\NuGet.LibraryModel.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\NuGet.Packaging.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\NuGet.ProjectModel.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\NuGet.Protocol.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\NuGet.Versioning.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Owin.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Swashbuckle.AspNetCore.Swagger.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.CodeDom.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Composition.AttributedModel.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Composition.Convention.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Composition.Hosting.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Composition.Runtime.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Composition.TypedParts.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Configuration.ConfigurationManager.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Drawing.Common.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IdentityModel.Tokens.Jwt.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Memory.Data.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Reflection.MetadataLoadContext.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Caching.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.ProtectedData.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.Permissions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Windows.Extensions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Data.SqlClient.SNI.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.CSharp.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualBasic.Core.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.VisualBasic.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Win32.Primitives.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Win32.Registry.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.AppContext.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Buffers.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Collections.Concurrent.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Collections.Immutable.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Collections.NonGeneric.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Collections.Specialized.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Collections.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.ComponentModel.Annotations.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.ComponentModel.DataAnnotations.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.ComponentModel.EventBasedAsync.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.ComponentModel.Primitives.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.ComponentModel.TypeConverter.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.ComponentModel.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Configuration.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Console.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Core.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Data.Common.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Data.DataSetExtensions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Data.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.Contracts.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.Debug.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.DiagnosticSource.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.FileVersionInfo.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.Process.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.StackTrace.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.TextWriterTraceListener.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.Tools.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.TraceSource.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.Tracing.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Drawing.Primitives.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Drawing.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Dynamic.Runtime.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Formats.Asn1.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Formats.Tar.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Globalization.Calendars.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Globalization.Extensions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Globalization.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.Compression.Brotli.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.Compression.FileSystem.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.Compression.ZipFile.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.Compression.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.FileSystem.AccessControl.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.FileSystem.DriveInfo.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.FileSystem.Primitives.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.FileSystem.Watcher.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.FileSystem.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.IsolatedStorage.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.MemoryMappedFiles.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.Pipes.AccessControl.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.Pipes.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.UnmanagedMemoryStream.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Linq.Expressions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Linq.Parallel.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Linq.Queryable.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Linq.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Memory.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.Http.Json.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.Http.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.HttpListener.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.Mail.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.NameResolution.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.NetworkInformation.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.Ping.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.Primitives.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.Quic.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.Requests.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.Security.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.ServicePoint.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.Sockets.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.WebClient.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.WebHeaderCollection.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.WebProxy.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.WebSockets.Client.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.WebSockets.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Net.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Numerics.Vectors.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Numerics.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.ObjectModel.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Private.CoreLib.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Private.DataContractSerialization.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Private.Uri.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Private.Xml.Linq.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Private.Xml.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Reflection.DispatchProxy.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Reflection.Emit.ILGeneration.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Reflection.Emit.Lightweight.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Reflection.Emit.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Reflection.Extensions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Reflection.Metadata.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Reflection.Primitives.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Reflection.TypeExtensions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Reflection.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Resources.Reader.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Resources.ResourceManager.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Resources.Writer.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.CompilerServices.Unsafe.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.CompilerServices.VisualC.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Extensions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Handles.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.InteropServices.JavaScript.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.InteropServices.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Intrinsics.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Loader.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Numerics.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Serialization.Formatters.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Serialization.Json.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Serialization.Primitives.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Serialization.Xml.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.Serialization.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Runtime.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.AccessControl.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.Claims.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.Algorithms.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.Cng.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.Csp.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.Encoding.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.OpenSsl.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.Primitives.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.X509Certificates.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.Principal.Windows.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.Principal.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.SecureString.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.ServiceModel.Web.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.ServiceProcess.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Text.Encoding.CodePages.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Text.Encoding.Extensions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Text.Encoding.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Text.Encodings.Web.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Text.Json.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Text.RegularExpressions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Threading.Channels.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Threading.Overlapped.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Threading.Tasks.Dataflow.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Threading.Tasks.Extensions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Threading.Tasks.Parallel.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Threading.Tasks.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Threading.Thread.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Threading.ThreadPool.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Threading.Timer.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Threading.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Transactions.Local.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Transactions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.ValueTuple.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Web.HttpUtility.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Web.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Windows.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Xml.Linq.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Xml.ReaderWriter.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Xml.Serialization.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Xml.XDocument.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Xml.XPath.XDocument.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Xml.XPath.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Xml.XmlDocument.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Xml.XmlSerializer.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Xml.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\WindowsBase.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\mscorlib.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\netstandard.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Antiforgery.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authentication.Cookies.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authentication.Core.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authentication.OAuth.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authentication.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Authorization.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Components.Authorization.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Components.Forms.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Components.Server.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Components.Web.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Components.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Connections.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.CookiePolicy.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Cors.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.DataProtection.Extensions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.DataProtection.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Diagnostics.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.HostFiltering.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Hosting.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Html.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Http.Connections.Common.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Http.Connections.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Http.Extensions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Http.Features.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Http.Results.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Http.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.HttpLogging.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.HttpOverrides.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.HttpsPolicy.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Identity.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Localization.Routing.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Localization.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Metadata.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.Core.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.Cors.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.Localization.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.Razor.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.RazorPages.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Mvc.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.OutputCaching.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.RateLimiting.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Razor.Runtime.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Razor.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.RequestDecompression.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.ResponseCaching.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.ResponseCompression.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Rewrite.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Routing.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Server.HttpSys.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Server.IIS.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Server.IISIntegration.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Server.Kestrel.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.Session.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.SignalR.Common.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.SignalR.Core.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.SignalR.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.StaticFiles.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.WebSockets.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.WebUtilities.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.AspNetCore.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Caching.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Caching.Memory.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.Binder.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.CommandLine.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.Ini.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.Json.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.KeyPerFile.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.UserSecrets.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.Xml.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Configuration.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.DependencyInjection.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Features.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.FileProviders.Composite.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.FileProviders.Physical.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Hosting.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Http.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Identity.Core.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Identity.Stores.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Localization.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Localization.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.Abstractions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.Configuration.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.Console.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.Debug.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.EventLog.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.EventSource.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.TraceSource.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Logging.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.ObjectPool.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Options.DataAnnotations.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Options.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.Primitives.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Extensions.WebEncoders.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.JSInterop.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.Net.Http.Headers.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.EventLog.Messages.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Diagnostics.EventLog.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.Pipelines.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.Pkcs.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Security.Cryptography.Xml.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.Threading.RateLimiting.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\Microsoft.DiaSymReader.Native.amd64.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\System.IO.Compression.Native.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\clretwrc.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\clrgc.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\clrjit.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\coreclr.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\createdump.exe
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\hostfxr.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\hostpolicy.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\mscordaccore.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\mscordaccore_amd64_amd64_7.0.523.17405.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\mscordbi.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\mscorrc.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\msquic.dll
+E:\FreeLance Jop\FreeLance\TempProject\bin\Release\net7.0\win-x64\aspnetcorev2_inprocess.dll
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\TempProject.csproj.AssemblyReference.cache
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\TempProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\TempProject.AssemblyInfoInputs.cache
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\TempProject.AssemblyInfo.cs
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\TempProject.csproj.CoreCompileInputs.cache
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\TempProject.MvcApplicationPartsAssemblyInfo.cs
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\TempProject.MvcApplicationPartsAssemblyInfo.cache
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\staticwebassets\msbuild.TempProject.Microsoft.AspNetCore.StaticWebAssets.props
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\staticwebassets\msbuild.build.TempProject.props
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\staticwebassets\msbuild.buildMultiTargeting.TempProject.props
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\staticwebassets\msbuild.buildTransitive.TempProject.props
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\staticwebassets.pack.json
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\staticwebassets.build.json
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\staticwebassets.development.json
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\scopedcss\bundle\TempProject.styles.css
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\TempProject.csproj.CopyComplete
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\TempProject.dll
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\refint\TempProject.dll
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\TempProject.pdb
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\TempProject.genruntimeconfig.cache
+E:\FreeLance Jop\FreeLance\TempProject\obj\Release\net7.0\win-x64\ref\TempProject.dll

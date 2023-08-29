@@ -1,0 +1,42 @@
+<!-- ======= Header ======= -->
+<header id="header" class="header fixed-top d-flex align-items-center px-4">
+
+  <div style="width: 100%;" class="d-flex align-items-center justify-content-between">
+    <div>
+      <a routerLink="/Home">
+        <img width="120px" src="../../assets/img/ECDC Logo White Edit png.png">
+      </a>
+    </div>
+    <div class="d-flex justify-content-between">
+      <a class="me-3" routerLink="/Notifications" *ngIf="IsAdmin">
+        <i class="fa-solid fa-bell text-white fs-4"></i>
+        <span *ngIf="JMPRecords" class="position-absolute top-8 start-99 translate-middle p-1 bg-danger rounded-circle">
+          <span class="visually-hidden">New alerts</span>
+        </span>
+      </a>
+      <li class="nav-item dropdown pe-3" style="list-style-type: none;" *ngIf="IsLoging">
+
+        <a class="text-white nav-link nav-profile d-flex align-items-center pe-0" data-bs-toggle="dropdown">
+          <span class="d-none d-md-block dropdown-toggle ps-2"><i class="fa-solid fa-user fs-4"></i></span>
+        </a><!-- End Profile Iamge Icon -->
+
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+          <li class="dropdown-header">
+            <h6 style="font-weight: bold;" class="text-dark fs-4">{{UserName}}</h6>
+            <span class="text-dark">{{UserRole}}</span>
+          </li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+
+          <li id="link" class="mt-2" style="width: 210px !important;" routerLink="/changepassword">
+            Reset Password
+          </li>
+        </ul><!-- End Profile Dropdown Items -->
+      </li><!-- End Profile Nav -->
+
+    </div>
+  </div><!-- End Logo -->
+
+
+</header><!-- End Header -->

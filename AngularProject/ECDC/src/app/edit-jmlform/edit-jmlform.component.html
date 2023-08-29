@@ -1,0 +1,460 @@
+<div class="container mb-5" style="margin-top: 8%;">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">
+      Edit Safe Journy Plan Form
+    </h2>
+
+  </div>
+
+  <div class="row">
+    <form [formGroup]="JMPForm" id="print-section" (ngSubmit)="submitData()" class="col-md-10 mx-auto d-flex flex-wrap">
+
+      <table class="table">
+        <tr>
+          <td colspan="2">
+            <div class="form-group">
+              <label class="form-label" for="destination">Destination : </label>
+              <input type="text" name="destination" [(ngModel)]="jmp.destination" formControlName="destination"
+                id="destination" class="form-control">
+              <div *ngIf="destination?.invalid && (destination?.dirty || destination?.touched)">
+                <small class="text-danger" *ngIf="destination?.errors?.['required']">
+                  Destination is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="company">Company : </label>
+              <input type="text" name="company" [(ngModel)]="jmp.company" formControlName="company" id="company"
+                class="form-control">
+              <div *ngIf="company?.invalid && (company?.dirty || company?.touched)">
+                <small class="text-danger" *ngIf="company?.errors?.['required']">
+                  Company is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="estimatedArriveTime">Date :</label>
+              <input type="date" name="date" [(ngModel)]="jmp.date" [ngModel]="jmp.date | date: 'yyyy-MM-dd'"
+                formControlName="date" id="date" class="form-control">
+              <div *ngIf="date?.invalid && (date?.dirty || date?.touched)">
+                <small class="text-danger" *ngIf="date?.errors?.['required']">
+                  Date is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <div class="form-group">
+              <label class="form-label" for="purposeOfJourny">Purpose Of Journy : </label>
+              <input type="text" name="purposeOfJourny" [(ngModel)]="jmp.purposeOfJourny"
+                formControlName="purposeOfJourny" id="purposeOfJourny" class="form-control">
+              <div *ngIf="purposeOfJourny?.invalid && (purposeOfJourny?.dirty || purposeOfJourny?.touched)">
+                <small class="text-danger" *ngIf="purposeOfJourny?.errors?.['required']">
+                  Purpose is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td colspan="2">
+            <label>Will The Driver Reach Destination Before Dark ? </label>
+            <br>
+            <div class="ms-1">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" formControlName="reachBeforeDark" type="radio" name="reachBeforeDark"
+                  id="reachBeforeDark" value="Yes" [(ngModel)]="jmp.reachBeforeDark">
+                <label class="form-check-label" for="reachBeforeDark">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" formControlName="reachBeforeDark" type="radio" name="reachBeforeDark"
+                  id="reachBeforeDark" value="No" [(ngModel)]="jmp.reachBeforeDark">
+                <label class="form-check-label" for="reachBeforeDark">No</label>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="journyManagerName">Journey Manager Name : </label>
+              <input type="text" name="journyManagerName" [(ngModel)]="jmp.journyManagerName"
+                formControlName="journyManagerName" id="journyManagerName" class="form-control">
+              <div *ngIf="journyManagerName?.invalid && (journyManagerName?.dirty || journyManagerName?.touched)">
+                <small class="text-danger" *ngIf="journyManagerName?.errors?.['required']">
+                  Name is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="managerNumber">Manager Number : </label>
+              <input type="text" name="managerNumber" [(ngModel)]="jmp.managerNumber" formControlName="managerNumber"
+                id="managerNumber" class="form-control">
+              <div *ngIf="managerNumber?.invalid && (managerNumber?.dirty || managerNumber?.touched)">
+                <small class="text-danger" *ngIf="managerNumber?.errors?.['required']">
+                  Number is required
+                </small>
+                <small class="text-danger" *ngIf="managerNumber?.errors?.['pattern']">
+                  Number must be 11 digit
+                </small>
+              </div>
+            </div>
+          </td>
+          <td colspan="2">
+            <div class="form-group">
+              <label class="form-label" for="communicationID">What means of communication the driver has got?</label>
+              <select name="communicationID" [(ngModel)]="jmp.communicationID" formControlName="communicationID"
+                id="communicationID" class="form-select">
+                <option value="" disabled selected>Choose Communication Method</option>
+                <option *ngFor="let item of CommunicationMethod" value="{{item.id}}">{{item.name}}</option>
+              </select>
+            </div>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="driverNameId">Driver Name : </label>
+              <select name="driverNameId" [(ngModel)]="jmp.driverNameId" formControlName="driverNameId"
+                id="driverNameId" class="form-select" (change)="onChange($event)">
+                <option value="" disabled selected>Choose Driver Name</option>
+                <option *ngFor="let item of DriversNames" value="{{item.id}}">{{item.name}}</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="phoneNumber">Phone Number : </label>
+              <input type="text" name="phoneNumber" disabled id="phoneNumber" value="{{driverPhone}}"
+                class="form-control">
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="licenceNumber">Licence Number : </label>
+              <input type="text" name="licenceNumber" disabled id="licenceNumber" value="{{driverLicenceNo}}"
+                class="form-control">
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="licenceExpireDate">Licence Expire Date : </label>
+              <input type="date" name="licenceExpireDate" disabled id="licenceExpireDate"
+                value="{{driverLicenceExpire | date:'yyyy-MM-dd'}}" class="form-control">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="vehicleId">Vehicle No : </label>
+              <select name="vehicleId" [(ngModel)]="jmp.vehicleId" formControlName="vehicleId" id="vehicleId"
+                class="form-select" (change)="OnVehiclehange($event)">
+                <option value="" disabled selected>Choose Vehicle No </option>
+                <option *ngFor="let item of VehiclesName" value="{{item.id}}">{{item.number}}</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="VehicleType">Vehicle Type/Color: </label>
+              <input type="text" disabled name="VehicleTypeColor" id="VehicleTypeColor" class="form-control"
+                value="{{vehicleType}}/{{vehicleColor}}">
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="licenceNumber">Licence Number : </label>
+              <input type="text" disabled name="licenceNumber" [(ngModel)]="jmp.licenceNumber" id="licenceNumber"
+                class="form-control" value="{{vehicleLicenceNo}}">
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="licenceExpireDate">Licence Expire Date : </label>
+              <input type="date" disabled name="licenceExpireDate" [(ngModel)]="jmp.licenceExpireDate"
+                id="licenceExpireDate" class="form-control" value="{{vehicleLicenceExpire|date:'yyyy-MM-dd'}}">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="departureDate">Departure Date : </label>
+              <input type="date" name="departureDate" [(ngModel)]="jmp.departureDate"
+                [ngModel]="jmp.departureDate| date: 'yyyy-MM-dd'" formControlName="departureDate" id="departureDate"
+                class="form-control">
+              <div *ngIf="departureDate?.invalid && (departureDate?.dirty || departureDate?.touched)">
+                <small class="text-danger" *ngIf="departureDate?.errors?.['required']">
+                  Date is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="estimatedArriveDate">Estimated Arrive Date :</label>
+              <input type="date" name="estimatedArriveDate" [(ngModel)]="jmp.estimatedArriveDate"
+                [ngModel]="jmp.estimatedArriveDate | date: 'yyyy-MM-dd'" formControlName="estimatedArriveDate"
+                id="estimatedArriveDate" class="form-control">
+              <div *ngIf="estimatedArriveDate?.invalid && (estimatedArriveDate?.dirty || estimatedArriveDate?.touched)">
+                <small class="text-danger" *ngIf="estimatedArriveDate?.errors?.['required']">
+                  Date is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td style="width: 12rem;">
+            <div class="form-group">
+              <label class="form-label" for="estimatedArriveTime">Estimated Arrive Time :</label>
+              <input type="time" name="estimatedArriveTime" [(ngModel)]="jmp.estimatedArriveTime"
+                formControlName="estimatedArriveTime" id="estimatedArriveTime" class="form-control">
+              <div *ngIf="estimatedArriveTime?.invalid && (estimatedArriveTime?.dirty || estimatedArriveTime?.touched)">
+                <small class="text-danger" *ngIf="estimatedArriveTime?.errors?.['required']">
+                  Time is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="restLocationNames">Rest Location Names :</label>
+              <input type="text" name="restLocationNames" [(ngModel)]="jmp.restLocationNames"
+                formControlName="restLocationNames" id="restLocationNames" class="form-control">
+              <div *ngIf="restLocationNames?.invalid && (restLocationNames?.dirty || restLocationNames?.touched)">
+                <small class="text-danger" *ngIf="restLocationNames?.errors?.['required']">
+                  Name is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="routeNameID">Route Name : </label>
+              <select name="routeNameID" [(ngModel)]="jmp.routeNameID" formControlName="routeNameID" id="routeNameID"
+                class="form-select">
+                <option value="" disabled selected>Choose Route Name</option>
+                <option *ngFor="let item of RouteNames" value="{{item.id}}">{{item.name}}</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="speedLimit">Speed Limit : </label>
+              <input type="number" min="0" name="speedLimit" [(ngModel)]="jmp.speedLimit" formControlName="speedLimit"
+                id="speedLimit" class="form-control">
+              <div *ngIf="speedLimit?.invalid && (speedLimit?.dirty || speedLimit?.touched)">
+                <small class="text-danger" *ngIf="speedLimit?.errors?.['required']">
+                  Speed Limit is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="distance">Distance : </label>
+              <input type="number" min="0" name="distance" [(ngModel)]="jmp.distance" formControlName="distance"
+                id="distance" class="form-control">
+                <div *ngIf="distance?.invalid && (distance?.dirty || distance?.touched)">
+                  <small class="text-danger" *ngIf="distance?.errors?.['required']">
+                    Distance is required
+                  </small>
+                </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="ActualTime">Actual Time: </label>
+              <input type="text" disabled name="ActualTime" id="ActualTime" class="form-control"
+                value="{{JMPForm.get('distance')?.value/JMPForm.get('speedLimit')?.value}}">
+            </div>
+          </td>
+
+        </tr>
+
+
+        <tr>
+          <td colspan="2">
+            <label>Inspection For Vechile Done ?</label>
+            <br>
+            <div class="ms-1">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" [(ngModel)]="jmp.inspectionVechile" formControlName="inspectionVechile"
+                  type="radio" name="inspectionVechile" value="Yes">
+                <label class="form-check-label" for="inspectionVechile">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" [(ngModel)]="jmp.inspectionVechile" formControlName="inspectionVechile"
+                  type="radio" name="inspectionVechile" value="No">
+                <label class="form-check-label" for="inspectionVechile">No</label>
+              </div>
+            </div>
+          </td>
+          <td colspan="2">
+            <label>Status : </label><br>
+            <div class="ms-1">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" [(ngModel)]="jmp.status" formControlName="status" type="radio"
+                  value="Good" id="status">
+                <label class="form-check-label" for="status">
+                  Good
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" [(ngModel)]="jmp.status" formControlName="status" type="radio"
+                  value="Poor" id="status" checked>
+                <label class="form-check-label" for="status">
+                  Poor
+                </label>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="4" class="text-center py-4">
+            <div style="width: 100%; height: 20px; border-bottom: 1px solid dimgray; text-align: center">
+              <span style="background-color: #F1F1F1; padding: 0 10px;color: dimgray;">
+                Passengers <!--Padding is optional-->
+              </span>
+            </div>
+            <!-- <label class="form-label py-4">Night driving (emergency cases only):</label> -->
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="passengerName1">Name</label>
+              <input type="text" name="passengerName1" [(ngModel)]="jmp.passengerName1" formControlName="passengerName1" id="passengerName1"
+                class="form-control">
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="passengerPhone1"><span class="text-danger">*</span> Phone</label>
+              <input type="text" name="passengerPhone1" [(ngModel)]="jmp.passengerPhone1" formControlName="passengerPhone1" id="passengerPhone1"
+                class="form-control">
+                <div *ngIf="passengerPhone1?.invalid&&(passengerPhone1?.dirty || passengerPhone1?.touched)">
+                  <small class="text-danger" *ngIf="passengerPhone1?.errors?.['pattern']">
+                    Phone must be 11 digit
+                  </small>
+                </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="passengerName2">Name</label>
+              <input type="text" name="passengerName2" [(ngModel)]="jmp.passengerName2" formControlName="passengerName2" id="passengerName2"
+                class="form-control">
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="passengerPhone2"><span class="text-danger">*</span> Phone</label>
+              <input type="text" name="passengerPhone2" [(ngModel)]="jmp.passengerPhone2" formControlName="passengerPhone2" id="passengerPhone2"
+                class="form-control">
+                <div *ngIf="passengerPhone2?.invalid&&(passengerPhone2?.dirty || passengerPhone2?.touched)">
+                  <small class="text-danger" *ngIf="passengerPhone2?.errors?.['pattern']">
+                    Phone must be 11 digit
+                  </small>
+                </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="passengerName3">Name</label>
+              <input type="text" name="passengerName3" [(ngModel)]="jmp.passengerName3" formControlName="passengerName3" id="passengerName3"
+                class="form-control">
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="passengerPhone3"><span class="text-danger">*</span> Phone</label>
+              <input type="text" name="passengerPhone3" [(ngModel)]="jmp.passengerPhone3" formControlName="passengerPhone3" id="passengerPhone3"
+                class="form-control">
+                <div *ngIf="passengerPhone3?.invalid&&(passengerPhone3?.dirty || passengerPhone3?.touched)">
+                  <small class="text-danger" *ngIf="passengerPhone3?.errors?.['pattern']">
+                    Phone must be 11 digit
+                  </small>
+                </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="passengerName4">Name</label>
+              <input type="text" name="passengerName4" [(ngModel)]="jmp.passengerName4" formControlName="passengerName4" id="passengerName4"
+                class="form-control">
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="passengerPhone4"><span class="text-danger">*</span> Phone</label>
+              <input type="text" name="passengerPhone4" [(ngModel)]="jmp.passengerPhone4" formControlName="passengerPhone4" id="passengerPhone4"
+                class="form-control">
+                <div *ngIf="passengerPhone4?.invalid&&(passengerPhone4?.dirty || passengerPhone4?.touched)">
+                  <small class="text-danger" *ngIf="passengerPhone4?.errors?.['pattern']">
+                    Phone must be 11 digit
+                  </small>
+                </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="4" class="text-center py-4">
+            <div style="width: 100%; height: 20px; border-bottom: 1px solid dimgray; text-align: center">
+              <span style="background-color: #F1F1F1; padding: 0 10px;color: dimgray;">
+                Night driving (emergency cases only) <!--Padding is optional-->
+              </span>
+            </div>
+            <!-- <label class="form-label py-4">Night driving (emergency cases only):</label> -->
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <label>QHSE Manager Must Approve : </label>
+            <div class="form-check">
+              <input class="form-check-input ms-1" [(ngModel)]="jmp.qhseManagerMustApprove"
+                formControlName="qhseManagerMustApprove" type="radio" value="Approved" id="qhseManagerMustApprove">
+              <label class="form-check-label ms-1" for="qhseManagerMustApprove">
+                Approved
+              </label>
+            </div>
+          </td>
+          <td colspan="2">
+            <div class="form-group">
+              <label class="form-label" for="nightDrivingReason">Night Driving Reason : </label>
+              <input type="text" name="nightDrivingReason" [(ngModel)]="jmp.nightDrivingReason"
+                formControlName="nightDrivingReason" id="nightDrivingReason" class="form-control">
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <input type="submit" [disabled]="JMPForm.invalid || JMPForm.get('inspectionVechile')?.value === 'No'"
+        class="btn btn-success me-3" value="Submit" />
+      <!-- <input type="submit" class="btn btn-primary me-3" value="Export Data" (click)="Download()" /> -->
+      <input routerLink="/PrintSJP" type="submit" class="btn btn-primary" value="Show Data">
+
+    </form>
+  </div>

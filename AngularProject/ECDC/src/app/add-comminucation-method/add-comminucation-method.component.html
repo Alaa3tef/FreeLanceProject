@@ -1,0 +1,35 @@
+<div class="container mb-5" style="margin-top: 8%;">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">
+      Add Comminucation Method
+    </h2>
+
+  </div>
+
+  <div class="row">
+    <form [formGroup]="ComminucationForm" id="print-section" (ngSubmit)="submitData()"
+      class="col-md-10 mx-auto d-flex flex-wrap">
+
+      <table class="table">
+        <tr>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="name">Comminucation Method: </label>
+              <input type="text" name="name" formControlName="name" id="name" class="form-control"/>
+              <div *ngIf="name?.invalid && (name?.dirty || name?.touched)">
+                <small class="text-danger" *ngIf="name?.errors?.['required']">
+                  Comminucation Method is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <input type="submit" [disabled]="ComminucationForm.invalid" class="btn btn-success me-3" value="Submit" />
+      <!-- <input type="submit" class="btn btn-primary me-3" value="Export Data" (click)="Download()" /> -->
+      <input routerLink="/Dashboard/ComminucationMethod" type="submit" class="btn btn-primary" value="Show Data">
+
+    </form>
+  </div>
+</div>

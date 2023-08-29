@@ -1,0 +1,228 @@
+<p>bop works!</p>
+<div class="container mb-5" style="margin-top: 8%;">
+    <div class="heading_container heading_center d-flex">
+      <h2 class="mx-auto">
+        Daily Personnel on board  Report 
+      </h2>
+  
+    </div>
+  
+    <div class="row">
+      <form [formGroup]="BOPForm" id="print-section" (ngSubmit)="submitData()"
+        class="col-md-10 mx-auto d-flex flex-wrap">
+  
+        <table class="table">
+          <tr>
+            <td>
+              <div class="form-group">
+                <label class="form-label" for="rigId">Rig Number: </label>
+                <select name="rigId" formControlName="rigId" id="rigId" class="form-select"
+                  [(ngModel)]="Bop.rigId">
+                  <option value="" disabled selected>Choose Rig Number</option>
+                  <option *ngFor="let item of rigList" value="{{item.id}}">Rig - {{item.number}}</option>
+                </select>
+              </div>
+            </td>
+            <td>
+              <div class="form-group   ">
+                <label>Date :</label>
+                <input id="Date" type="date" formControlName="date" class="form-control" 
+                [(ngModel)]="Bop.date" [ngModel]="Bop.date | date: 'yyyy-MM-dd'"/>
+                <div *ngIf="date?.invalid && (date?.dirty || date?.touched)">
+                  <small class="text-danger" *ngIf="date?.errors?.['required']">
+                    Date is required
+                  </small>
+                </div>
+              </div>
+            </td>
+           
+          </tr>
+       
+        </table>
+
+
+        <table class="table caption-top">
+            <thead>
+              <tr>
+                <th scope="col">Employee</th>
+                <th scope="col">Numbers</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">ECDC</td>
+                
+                <td>
+                    <div class="form-group">
+                        <input type="number" id="ecdc" name="ecdc" formControlName="ecdc" class="form-control"
+                        [(ngModel)]="Bop.ecdc">
+                        
+                        <div *ngIf="ecdc?.invalid && (ecdc?.dirty || ecdc?.touched)">
+                          <small class="text-danger" *ngIf="ecdc?.errors?.['required']">
+                            ECDC is required
+                          </small>
+                        </div>
+                      </div>
+                    
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">Client</td>
+                <td>
+                    <div class="form-group">
+                        <input type="number" id="client" name="client" formControlName="client" class="form-control" 
+                        [(ngModel)]="Bop.client">
+                       
+                        <div *ngIf="client?.invalid && (client?.dirty || client?.touched)">
+                          <small class="text-danger" *ngIf="client?.errors?.['required']">
+                            Client is required
+                          </small>
+                        </div>
+                      </div>
+                </td>
+              
+              </tr>
+              <tr>
+                <td scope="row">Service</td>
+                <td>
+                    <div class="form-group">
+                        <input type="number" id="service" name="service" formControlName="service" class="form-control" 
+                        [(ngModel)]="Bop.service">
+                       
+                        <div *ngIf="service?.invalid && (service?.dirty || service?.touched)">
+                          <small class="text-danger" *ngIf="service?.errors?.['required']">
+                            Service is required
+                          </small>
+                        </div>
+                      </div>
+                </td>                
+              </tr>
+              <tr>
+                <td scope="row">Visitors</td>
+                <td>
+                    <div class="form-group">
+                        <input type="number" id="visitors" name="visitors" formControlName="visitors" class="form-control" 
+                        [(ngModel)]="Bop.visitors">
+                        
+                        <div *ngIf="visitors?.invalid && (visitors?.dirty || visitors?.touched)">
+                          <small class="text-danger" *ngIf="visitors?.errors?.['required']">
+                            Visitors is required
+                          </small>
+                        </div>
+                      </div>
+                </td>                
+              </tr>
+              <tr>
+                <td scope="row">Catering</td>
+                <td>
+                    <div class="form-group">
+                        <input type="number" id="catering" name="catering" formControlName="catering" class="form-control"
+                        [(ngModel)]="Bop.catering">
+                        
+                        <div *ngIf="catering?.invalid && (catering?.dirty || catering?.touched)">
+                          <small class="text-danger" *ngIf="catering?.errors?.['required']">
+                            Catering is required
+                          </small>
+                        </div>
+                      </div>
+                </td>                
+              </tr>
+              <tr>
+                <td scope="row">Watch men& mud boys</td>
+                <td>
+                    <div class="form-group">
+                        <input type="number" id="watchMen" name="watchMen" formControlName="watchMen" class="form-control" 
+                        [(ngModel)]="Bop.watchMen">
+                        
+                        <div *ngIf="watchMen?.invalid && (watchMen?.dirty || watchMen?.touched)">
+                          <small class="text-danger" *ngIf="watchMen?.errors?.['required']">
+                            Watch men& mud boys is required
+                          </small>
+                        </div>
+                      </div>
+                </td>                
+              </tr>
+              <tr>
+                <td scope="row">Inspection</td>
+                <td>
+                    <div class="form-group">
+                        <input type="number" id="inspection" name="inspection" formControlName="inspection" class="form-control" 
+                        [(ngModel)]="Bop.inspection">
+                        
+                        <div *ngIf="inspection?.invalid && (inspection?.dirty || inspection?.touched)">
+                          <small class="text-danger" *ngIf="inspection?.errors?.['required']">
+                            Inspection is required
+                          </small>
+                        </div>
+                      </div>
+                </td>                
+              </tr>
+              <tr>
+                <td scope="row">Rental</td>
+                <td>
+                    <div class="form-group">
+                        <input type="number" id="rental" name="rental" formControlName="rental" class="form-control" 
+                        [(ngModel)]="Bop.rental">
+                        
+                        <div *ngIf="rental?.invalid && (rental?.dirty || rental?.touched)">
+                          <small class="text-danger" *ngIf="rental?.errors?.['required']">
+                            Rental is required
+                          </small>
+                        </div>
+                      </div>
+                </td>                
+              </tr>
+              <tr>
+                <td scope="row">Other</td>
+                <td>
+                    <div class="form-group">
+                        <input type="number" id="other" name="other" formControlName="other" class="form-control" 
+                        [(ngModel)]="Bop.other">
+                        
+                        <div *ngIf="other?.invalid && (other?.dirty || other?.touched)">
+                          <small class="text-danger" *ngIf="other?.errors?.['required']">
+                            Other is required
+                          </small>
+                        </div>
+                      </div>
+                </td>                
+              </tr>
+              <tr>
+                <td scope="row">Man Power</td>
+                <td>
+                    <div class="form-group">
+                        <input type="number" id="manPower" name="manPower"  class="form-control"  
+                        value="{{BOPForm.get('ecdc')?.value+BOPForm.get('client')?.value+BOPForm.get('service')?.value
+                        +BOPForm.get('visitors')?.value+BOPForm.get('catering')?.value+BOPForm.get('watchMen')?.value
+                        +BOPForm.get('inspection')?.value+BOPForm.get('rental')?.value+BOPForm.get('other')?.value}}" readOnly 
+                        
+                        [(ngModel)]="Bop.manPower">
+                       
+                      </div>
+                </td>                
+              </tr>
+              <tr>
+                <td scope="row">Total Man Hour</td>
+                <td>
+                    <div class="form-group">
+                        <input type="number" id="totalManHours" name="totalManHours"  class="form-control" 
+                        value="{{ (BOPForm.get('ecdc')?.value+BOPForm.get('client')?.value+BOPForm.get('service')?.value
+                        +BOPForm.get('visitors')?.value+BOPForm.get('catering')?.value+BOPForm.get('watchMen')?.value
+                        +BOPForm.get('inspection')?.value+BOPForm.get('rental')?.value+BOPForm.get('other')?.value)*12}}" readOnly 
+                        
+                        [(ngModel)]="Bop.totalManHours">
+                       
+                      </div>
+                </td>                
+              </tr>
+            </tbody>
+          </table>
+
+  
+        <input type="submit" [disabled]="BOPForm.invalid" class="btn btn-success me-3" value="Submit" />
+        <!-- <input type="submit" class="btn btn-primary me-3" value="Export Data" (click)="Download()" /> -->
+        <input routerLink="/PrintBOP" type="submit" class="btn btn-primary" value="Show Data">
+  
+      </form>
+    </div>
+  </div>

@@ -1,0 +1,168 @@
+<div class="container mb-5" style="margin-top: 8%">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">RMPE Report</h2>
+  </div>
+  <label class="mb-2">Date</label>
+  <select class="form-control" [(ngModel)]="date" (change)="DateSelected($event)">
+    <option value="{{ RigMovePerformance.acceptanceDate }}" *ngFor="let RigMovePerformance of RigMovePerformances">
+      {{ RigMovePerformance.acceptanceDate | date : "dd-MM-yyyy" }} /
+      {{ RigMovePerformance.newWellName }}
+    </option>
+  </select>
+
+  <div class="px-4 px-lg-0 m-5">
+    <div class="pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 p-5 bg-white rounded shadow-sm mb-4 print-section" *ngIf="Data">
+            <!-- Shopping cart table -->
+            <div class="table-responsive">
+              <table class="table" style="width: 100%;font-size: 14px">
+                <tr>
+                  <td colspan="5">
+                    <div style="
+                        display: flex;
+                        justify-content: space-evenly;
+                        border-bottom: 2px solid #0e0a27;
+                      ">
+                      <img style="margin-left: 30px" width="150px" src="../../assets/img/ECDC Logo png.png" />
+                      <label class="form-label mt-3" style="
+                          font-weight: bolder;
+                          font-size: larger;
+                          color: #0e0a27;
+                          margin-left: 250px;
+                        ">
+                        الشركة المصرية الصينية للحفر
+                      </label>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="text-center" style="margin-bottom: 30px">
+                  <th colspan="5">Rig Move Performance Evaluation</th>
+                </tr>
+
+                <tr class="text-center" style="background-color: #8db4e2">
+                  <td colspan="5">General Data</td>
+                </tr>
+                <tr>
+                  <td>Rig Number:</td>
+                  <td>
+                    {{ RigPerformance.rigNumber }}
+                  </td>
+
+                  <td>Actual Move time:</td>
+                  <td>
+                    {{ RigPerformance.actualMoveTime }}
+                  </td>
+                </tr>
+                <tr>
+                  <td>Old Well Name:</td>
+                  <td>
+                    {{ RigPerformance.oldWellName }}
+                  </td>
+                  <td>Diesel consumed:</td>
+                  <td>
+                    {{ RigPerformance.dieselConsumed }}
+                  </td>
+                </tr>
+                <tr>
+                  <td>New Well Name:</td>
+                  <td>
+                    {{ RigPerformance.newWellName }}
+                  </td>
+                  <td>Move Target Achieved ?</td>
+                  <td>
+                    {{ RigPerformance.targetArchived }}
+                  </td>
+                </tr>
+                <tr>
+                  <td>Move Distance:</td>
+                  <td>
+                    {{ RigPerformance.moveDistance }}
+                  </td>
+                  <td>Budget Target</td>
+                  <td>
+                    {{ RigPerformance.budgetTargetTotalDay }} Day &
+                    {{ RigPerformance.budgetTargetTotalMoney }} L.E
+                  </td>
+                </tr>
+                <tr>
+                  <td>Release date & Time:</td>
+                  <td>
+                    {{ RigPerformance.releaseDate | date : "dd-MM-yyyy" }} &
+                    {{ RigPerformance.releaseTime }}
+                  </td>
+                  <td>Acceptance date & Time:</td>
+                  <td>
+                    {{ RigPerformance.acceptanceDate | date : "dd-MM-yyyy" }} &
+                    {{ RigPerformance.acceptanceTime }}
+                  </td>
+                </tr>
+              </table>
+
+              <table class="table" style="width: 100%; margin: 30px 0;font-size: 14px">
+                <tr class="text-center" style="background-color: #8db4e2">
+                  <td colspan="5">Problem Faced During Rig move</td>
+                </tr>
+                <tr>
+                  <th style="font-size: 14px">Item</th>
+                  <th style="font-size: 14px">Problem Description</th>
+                  <th style="font-size: 14px">Time lost due to the problem</th>
+                  <th style="font-size: 14px">
+                    Recommendation to avoid problem repeated
+                  </th>
+                </tr>
+
+                <tr *ngFor="
+                    let item of RigPerformance.problemFacedDuringRigMoveDTOs
+                  ">
+                  <td>{{ item.item }}</td>
+                  <td>{{ item.problemDescription }}</td>
+                  <td>{{ item.timeLostProblem }}</td>
+                  <td>{{ item.recommendationProblemRepeated }}</td>
+                </tr>
+              </table>
+              <div style="
+                  background-color: #d9d9d9;
+                  font-size: 14px;
+                  padding: 20px;
+                  margin: 30px 0;
+                ">
+                <h6>Note:</h6>
+                <ol>
+                  <li>
+                    In case of any accident happened during the rig move, the
+                    move bonus will be cancelled for all the people who should
+                    deserve the bonus
+                  </li>
+                  <li>
+                    In case of any safety violation(s) from any one of the crew,
+                    the move bonus will be cancelled for this person based on
+                    the recommendation of STP, Truck pusher and QHSE engineers
+                  </li>
+                  <li>
+                    The Bonus will be cancelled for all the crew in case of any
+                    damage for the rig equipment due to neglegance of any one of
+                    the crew
+                  </li>
+                </ol>
+              </div>
+              <div class="d-flex justify-content-evenly mx-auto">
+                <div>
+                  <label>Senior tool pusher: </label>
+                  <span style="height: 25px;border-bottom: 1px dashed black;display: block;"></span>
+                </div>
+                <div>
+                  <label>Superintendent: </label>
+                  <span style="height: 25px;border-bottom: 1px dashed black;display: block;"></span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <input *ngIf="Data" type="submit" class="btn btn-primary my-4" value="Print Data" (click)="print()" />
+      </div>
+    </div>
+  </div>
+</div>

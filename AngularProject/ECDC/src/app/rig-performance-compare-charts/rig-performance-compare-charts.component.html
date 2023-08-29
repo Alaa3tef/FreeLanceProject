@@ -1,0 +1,47 @@
+<div class="container" style="margin: 8% 0; min-height: 63vh;">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">
+      Rig Move Performance Evaluation Compare Charts
+    </h2>
+
+  </div>
+  <div class="row mb-5 text-center">
+    <div class="col-md-4">
+      <select name="Rig1" id="Rig1" class="form-select" (change)="onRig1Change($event)">
+        <option value="" disabled selected>Choose Rig Number</option>
+        <option value="{{item.id}}" *ngFor="let item of RigList">Rig - {{item.number}}</option>
+      </select>
+    </div>
+    <div class="col-md-4">
+      <select name="Rig2" id="Rig2" class="form-select" (change)="onRig2Change($event)">
+        <option value="" disabled selected>Choose Rig Number</option>
+        <option value="{{item.id}}" *ngFor="let item of RigList">Rig - {{item.number}}</option>
+      </select>
+    </div>
+    <div class="col-md-3">
+      <select name="year" id="year" class="form-select" (change)="onYearChange($event)">
+        <option value="" disabled selected>Choose Year</option>
+        <option value="{{item}}" *ngFor="let item of YearList">{{item}}</option>
+      </select>
+    </div>
+    <div class="col-md-1">
+      <button class="btn btn-primary" (click)="onChange($event)"><i
+          class="fa-solid fa-circle-chevron-right"></i></button>
+    </div>
+  </div>
+
+  <div id="divChart" #divChart *ngIf="temp">
+    <div class="mb-5" id="chart1">
+      <p class="display-6 text-center">Rig Move by Release - Acceptance Date</p>
+      <canvas id="myChart"></canvas>
+    </div>
+    <div class="mb-5" id="chart2">
+      <p class="display-6 text-center">Rig Move by target Archived</p>
+      <canvas id="myChart2"></canvas>
+    </div>
+    <!-- <div id="chart3">
+      <p class="display-6 text-center">Stop Card by SWA</p>
+      <canvas id="myChart3"></canvas>
+    </div> -->
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="container" style="margin: 8% 0; min-height: 63vh;">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">
+      Rig Move Performance Evaluation Charts
+    </h2>
+
+  </div>
+  <div class="mb-5">
+    <label for="month" class="form-label">Rig Number</label>
+    <select name="month" id="RigNo" class="form-select" (change)="onChange($event)">
+      <option value="" selected>Choose Rig Number</option>
+      <option value="{{item.id}}" *ngFor="let item of RigList">Rig - {{item.number}}</option>
+    </select>
+  </div>
+
+  <div id="divChart" #divChart *ngIf="temp">
+    <div class="mb-5" id="chart1">
+      <p class="display-6 text-center">Rig Move by Release - Acceptance Date</p>
+      <canvas id="myChart"></canvas>
+    </div>
+    <div class="mb-5" id="chart2">
+      <p class="display-6 text-center">Rig Move by target Archived</p>
+      <canvas id="myChart2"></canvas>
+    </div>
+    <!-- <div id="chart3">
+      <p class="display-6 text-center">Stop Card by SWA</p>
+      <canvas id="myChart3"></canvas>
+    </div> -->
+  </div>
+</div>

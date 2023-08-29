@@ -1,0 +1,95 @@
+
+<div class="container mb-5" style="margin-top: 8%;">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">
+      Edit Vehicle
+    </h2>
+
+  </div>
+
+  <div class="row">
+    <form [formGroup]="VehicleForm" id="print-section" (ngSubmit)="submitData()"
+      class="col-md-10 mx-auto d-flex flex-wrap">
+
+      <table class="table">
+        <tr>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="number">Vehicle Number: </label>
+              <input [(ngModel)]="Vehicle.number" type="text" name="number" formControlName="number" id="number" class="form-control"/>
+              <div *ngIf="number?.invalid && (number?.dirty || number?.touched)">
+                <small class="text-danger" *ngIf="number?.errors?.['required']">
+                  Number is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="type">Vehicle Type: </label>
+              <input [(ngModel)]="Vehicle.type" type="text" name="type" formControlName="type" id="type" class="form-control"/>
+              <div *ngIf="type?.invalid && (type?.dirty || type?.touched)">
+                <small class="text-danger" *ngIf="type?.errors?.['required']">
+                  Type is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="color">Vehicle Color: </label>
+              <input [(ngModel)]="Vehicle.color" type="text" name="color" formControlName="color" id="color" class="form-control"/>
+              <div *ngIf="color?.invalid && (color?.dirty || color?.touched)">
+                <small class="text-danger" *ngIf="color?.errors?.['required']">
+                  Color is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="color">Passenger Number: </label>
+              <input [(ngModel)]="Vehicle.passengerNumber" type="number" name="passengerNumber" formControlName="passengerNumber" id="passengerNumber" class="form-control"/>
+              <div *ngIf="passengerNumber?.invalid && (passengerNumber?.dirty || passengerNumber?.touched)">
+                <small class="text-danger" *ngIf="passengerNumber?.errors?.['required']">
+                  Number is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="licenceExpireData">Vehicle Licence Expire Date: </label>
+              <input [(ngModel)]="Vehicle.licenceExpireData" [ngModel]="Vehicle.licenceExpireData | date:'yyyy-dd-MM'" type="date" name="licenceExpireData" formControlName="licenceExpireData" id="licenceExpireData" class="form-control"/>
+              <div *ngIf="licenceExpireData?.invalid && (licenceExpireData?.dirty || licenceExpireData?.touched)">
+                <small class="text-danger" *ngIf="licenceExpireData?.errors?.['required']">
+                  Date is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="licenceNumber">Vehicle Licence Number: </label>
+              <input [(ngModel)]="Vehicle.licenceNumber" type="text" min="0" name="licenceNumber" formControlName="licenceNumber" id="licenceNumber" class="form-control"/>
+              <div *ngIf="licenceNumber?.invalid && (licenceNumber?.dirty || licenceNumber?.touched)">
+                <small class="text-danger" *ngIf="licenceNumber?.errors?.['required']">
+                  Number is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <input type="submit" [disabled]="VehicleForm.invalid" class="btn btn-success me-3" value="Update" />
+      <!-- <input type="submit" class="btn btn-primary me-3" value="Export Data" (click)="Download()" /> -->
+      <input routerLink="/Dashboard/Vehicle" type="submit" class="btn btn-primary" value="Show Data">
+
+    </form>
+  </div>
+</div>

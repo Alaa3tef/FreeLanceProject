@@ -1,0 +1,257 @@
+<div class="container mb-5" style="margin-top: 8%;">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">
+      Incident Report
+    </h2>
+  </div>
+
+  <label class="mb-2">Data :</label>
+  <select class="form-control" [(ngModel)]="date" (change)="ClassificationSelected($event)">
+    <option value="{{ accident}}" *ngFor="let accident of Accident">
+      {{ accident | date: 'dd-MM-yyyy'}}
+    </option>
+  </select>
+
+  <div class="px-4 px-lg-0 m-5">
+    <div class="pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 p-5 bg-white rounded shadow-sm mb-4 print-section"
+            *ngFor="let record of AccidentRecord">
+            <div class="table-responsive">
+              <table class="border" style="width: 100%;">
+                <tr>
+                  <div style="display: flex;">
+                    <img style="margin-left: 30px;" width="100px" src="../../assets/img/ECDC Logo png.png" />
+                    <label class="form-label mt-3"
+                      style="font-weight: bolder; font-size: large; color: black; margin-left: 130px;">
+                      Accident / Incident Register
+                    </label>
+                  </div>
+                </tr>
+              </table>
+
+              <div class="col-12">
+                <table class="table table-bordered" style="margin-bottom: 0;">
+                  <tbody>
+                    <tr>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            <span style="font-weight: bold;">Rig Number :</span>
+                            <span>{{ record.rig }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            <span style="font-weight: bold;">Date of Event :</span>
+                            <span>{{ record.dateOfEvent |date: 'dd-MM-yyyy' }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            <span style="font-weight: bold;">Time of Event :</span>
+                            <span>{{ record.timeOfEvent }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            <span style="font-weight: bold;">Classification of Incident :</span>
+                            <span>{{ record.classificationOfAccident }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            <span style="font-weight: bold;">Type of Injury :</span>
+                            <span>{{ record.typeOfInjury }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            <span style="font-weight: bold;">Incident Location :</span>
+                            <span>{{ record.accidentLocation }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            <span style="font-weight: bold;">Violation Category :</span>
+                            <span>{{ record.violationCategory }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            <span style="font-weight: bold;">Night Pusher Name :</span>
+                            <span>{{ record.toolPusherName }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            <span style="font-weight: bold;">Incident Causes :</span>
+                            <span>{{ record.accidentCauses }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            <span style="font-weight: bold;">Night QHSE Engineer Name :</span>
+                            <span>{{ record.qhseName }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            <span style="font-weight: bold;">Prevention Category :</span>
+                            <span>{{ record.preventionCategory }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            <span style="font-weight: bold;">Driller Name :</span>
+                            <span>{{ record.drillerName }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="col-12">
+                <table class="table table-borderless">
+                  <tbody>
+                    <tr>
+                      <td scope="row" class="p-0">
+                        <div class="mb-1">
+                          <h6 class="mb-0">
+                            <span style="font-weight: bold;">Description :</span>
+                            <div class="p-1" style="border: 1px solid black;width: 100%;">
+                              {{ record.descriptionOfTheEvent }}
+                            </div>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row" class="p-0">
+                        <div class="mb-1">
+                          <h6 class="mb-0">
+                            <span style="font-weight: bold;">Immediate Action Taken :</span>
+                            <div class="p-1" style="border: 1px solid black;width: 100%;">
+                              {{ record.immediateActionType }}
+                            </div>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row" class="p-0">
+                        <div class="mb-1">
+                          <h6 class="mb-0">
+                            <span style="font-weight: bold;">Direct Causes :</span>
+                            <div class="p-1" style="border: 1px solid black;width: 100%;">
+                              {{ record.directCauses }}
+                            </div>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row" class="p-0">
+                        <div class="mb-1">
+                          <h6 class="mb-0">
+                            <span style="font-weight: bold;">Root Causes :</span>
+                            <div class="p-1" style="border: 1px solid black;width: 100%;">
+                              {{ record.rootCauses }}
+                            </div>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row" class="p-0">
+                        <div class="mb-1">
+                          <h6 class="mb-0">
+                            <span style="font-weight: bold;">Recommendations :</span>
+                            <div class="p-1" style="border: 1px solid black;width: 100%;">
+                              {{ record.recommendations }}
+                            </div>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row" class="p-0">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            <span style="font-weight: bold;">Pictures :</span>
+                            <img class="ms-2" style="width: 100px;"
+                              src="http://localhost:5000/acciIMG/{{record.pictures}}">
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="col-12">
+                <table class="table table-borderless mb-1"
+                  style="display: flex; align-items: center; justify-content: center;">
+                  <tbody>
+                    <tr>
+                      <td scope="row">
+                        Issue No. 01
+                        <br>
+                        Revision No. 00
+                      </td>
+                      <td scope="row">
+                        Document No. ECDC-QHSE-FM-82
+                        <br>
+                        Page 1 / 1
+                      </td>
+                      <td scope="row">
+                        Issue Date: 01/01/2023
+                        <br>
+                        Revision Date: 00/00/0000
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- End -->
+          </div>
+        </div>
+        <input *ngIf="Data" type="submit" class="btn btn-primary my-4" value="Print Data" (click)="print()" />
+      </div>
+    </div>
+  </div>
+</div>

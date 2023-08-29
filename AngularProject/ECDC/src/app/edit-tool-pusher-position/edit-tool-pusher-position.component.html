@@ -1,0 +1,36 @@
+
+<div class="container mb-5" style="margin-top: 8%;">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">
+      Edit Tool Pusher Position
+    </h2>
+
+  </div>
+
+  <div class="row">
+    <form [formGroup]="ToolPusherPositionForm" id="print-section" (ngSubmit)="submitData()"
+      class="col-md-10 mx-auto d-flex flex-wrap">
+
+      <table class="table">
+        <tr>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="name">Tool Pusher Position: </label>
+              <input [(ngModel)]="ToolPusherPosition.name" type="text" name="name" formControlName="name" id="name" class="form-control"/>
+              <div *ngIf="name?.invalid && (name?.dirty || name?.touched)">
+                <small class="text-danger" *ngIf="name?.errors?.['required']">
+                  Position is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <input type="submit" [disabled]="ToolPusherPositionForm.invalid" class="btn btn-success me-3" value="Update" />
+      <!-- <input type="submit" class="btn btn-primary me-3" value="Export Data" (click)="Download()" /> -->
+      <input routerLink="/Dashboard/ToolPusherPosition" type="submit" class="btn btn-primary" value="Show Data">
+
+    </form>
+  </div>
+</div>

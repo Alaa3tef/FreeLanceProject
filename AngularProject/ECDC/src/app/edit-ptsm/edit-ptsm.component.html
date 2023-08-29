@@ -1,0 +1,236 @@
+<div class="container mb-5" style="margin-top: 8%;">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">
+      Edit Pre-Tour Safety Meeting
+    </h2>
+
+  </div>
+
+  <div class="row">
+    <form [formGroup]="PTSMForm" id="print-section" (ngSubmit)="submitData()"
+      class="col-md-10 mx-auto d-flex flex-wrap">
+
+      <table class="table">
+        <tr>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="rigId">Rig Number: </label>
+              <select name="rigId" formControlName="rigId" id="rigId" [(ngModel)]="PTSM.rigId" class="form-select">
+                <option value="" disabled selected>Choose Rig Number</option>
+                <option *ngFor="let item of rigList" value="{{item.id}}">Rig - {{item.number}}</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div class="form-group   ">
+              <label>Date :</label>
+              <input id="Date" type="date" formControlName="date" [(ngModel)]="PTSM.date" [ngModel]="PTSM.date | date: 'yyyy-MM-dd'" class="form-control" />
+              <div *ngIf="date?.invalid && (date?.dirty || date?.touched)">
+                <small class="text-danger" *ngIf="date?.errors?.['required']">
+                  Date is required
+                </small>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label>Time :</label>
+              <input type="time" class="form-control" formControlName="time" [(ngModel)]="PTSM.time" />
+              <div *ngIf="time?.invalid && (time?.dirty || time?.touched)">
+                <small class="text-danger" *ngIf="time?.errors?.['required']">
+                  Time is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div class="form-group">
+              <label class="form-label" for="trainerName">Trainer Name :</label>
+              <input type="text" name="trainerName" formControlName="trainerName" [(ngModel)]="PTSM.trainerName"
+                id="trainerName" class="form-control" />
+                <div *ngIf="trainerName?.invalid && (trainerName?.dirty || trainerName?.touched)">
+                  <small class="text-danger" *ngIf="trainerName?.errors?.['required']">
+                    Trainer Name is required
+                  </small>
+                </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="numsofTrainees">Number of Trainees :</label>
+              <input type="number" name="numsofTrainees" formControlName="numsofTrainees" [(ngModel)]="PTSM.numsofTrainees"
+                id="numsofTrainees" class="form-control" />
+                <div *ngIf="numsofTrainees?.invalid && (numsofTrainees?.dirty || numsofTrainees?.touched)">
+                  <small class="text-danger" *ngIf="numsofTrainees?.errors?.['required']">
+                    Number of Trainees is required
+                  </small>
+                </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="form-group">
+              <label class="form-label" for="subjectTitle">Title :</label>
+              <input type="text" name="subjectTitle" formControlName="subjectTitle" [(ngModel)]="PTSM.subjectTitle"
+                id="subjectTitle" class="form-control" />
+                <div *ngIf="subjectTitle?.invalid && (subjectTitle?.dirty || subjectTitle?.touched)">
+                  <small class="text-danger" *ngIf="subjectTitle?.errors?.['required']">
+                    Title is required
+                  </small>
+                </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="form-group">
+              <label class="form-label" for="subjectContent">Subject :</label>
+              <textarea name="subjectContent" formControlName="subjectContent" [(ngModel)]="PTSM.subjectContent"
+                id="subjectContent" class="form-control" rows="4" ></textarea>
+                <div *ngIf="subjectContent?.invalid && (subjectContent?.dirty || subjectContent?.touched)">
+                  <small class="text-danger" *ngIf="subjectContent?.errors?.['required']">
+                    Subject is required
+                  </small>
+                </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <!-- <table class="table">
+        <tr>
+          <td colspan="4" class="text-center pb-4">
+            <div style="width: 100%; height: 20px; border-bottom: 1px solid dimgray; text-align: center">
+              <span style="background-color: #F1F1F1; padding: 0 10px;color: dimgray;">
+                Attendance
+              </span>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="no1">No</label>
+              <input type="number" id="no1" name="no1" formControlName="no1" class="form-control" readonly />
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="position1">Position</label>
+              <input type="text" id="position1" name="position1" formControlName="position1" [(ngModel)]="PTSM.position1"
+                class="form-control" />
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="name1">Name</label>
+              <input type="text" id="name1" name="name1" formControlName="name1" [(ngModel)]="PTSM.name1"
+                class="form-control" />
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="no2">No</label>
+              <input type="number" id="no2" name="no2" formControlName="no2" class="form-control" readonly/>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="position2">Position</label>
+              <input type="text" id="position2" name="position2" formControlName="position2" [(ngModel)]="PTSM.position2"
+                class="form-control" />
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="name2">Name</label>
+              <input type="text" id="name2" name="name2" formControlName="name2" [(ngModel)]="PTSM.name2"
+                class="form-control" />
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="no3">No</label>
+              <input type="number" id="no3" name="no3" formControlName="no3" class="form-control" readonly/>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="position3">Position</label>
+              <input type="text" id="position3" name="position3" formControlName="position3" [(ngModel)]="PTSM.position3"
+                class="form-control" />
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="name3">Name</label>
+              <input type="text" id="name3" name="name3" formControlName="name3" [(ngModel)]="PTSM.name3"
+                class="form-control" />
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="no4">No</label>
+              <input type="number" id="no4" name="no4" formControlName="no4" class="form-control" readonly/>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="position4">Position</label>
+              <input type="text" id="position4" name="position4" formControlName="position4" [(ngModel)]="PTSM.position4"
+                class="form-control" />
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="name4">Name</label>
+              <input type="text" id="name4" name="name4" formControlName="name4" [(ngModel)]="PTSM.name4"
+                class="form-control" />
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="no5">No</label>
+              <input type="number" id="no5" name="no5" formControlName="no5" class="form-control" readonly/>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="position5">Position</label>
+              <input type="text" id="position5" name="position5" formControlName="position5" [(ngModel)]="PTSM.position5"
+                class="form-control" />
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label for="name5">Name</label>
+              <input type="text" id="name5" name="name5" formControlName="name5" [(ngModel)]="PTSM.name5"
+                class="form-control" />
+            </div>
+          </td>
+        </tr>
+
+      </table> -->
+
+      <input type="submit" [disabled]="PTSMForm.invalid" class="btn btn-success me-3" value="Update" />
+      <!-- <input type="submit" class="btn btn-primary me-3" value="Export Data" (click)="Download()" /> -->
+      <input routerLink="/Dashboard/PTSM" type="submit" class="btn btn-primary" value="Show Data">
+
+    </form>
+  </div>
+</div>

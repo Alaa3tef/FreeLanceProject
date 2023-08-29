@@ -1,0 +1,30 @@
+import { Time } from "@angular/common"
+
+export interface IAccident {
+  id: number,
+  rigId: number,
+  timeOfEvent: Time,
+  dateOfEvent: Date,
+  typeOfInjuryID: number,
+  violationCategoryId: number,
+  accidentCausesId: number,
+  preventionCategoryId: number,
+  classificationOfAccidentId: number,
+  accidentLocation: string,
+  qhsePositionNameId: number,
+  qhseEmpCode: number,
+  pusherEmpCode: number,
+  toolPusherPositionNameId: number,
+  drillerName: string,
+  descriptionOfTheEvent: string,
+  toolPusherPositionId: number,
+  qhsePositionId: number,
+  immediateActionType: string,
+  directCauses: string,
+  rootCauses: string,
+  recommendations: string,
+  pictures: string,
+  userID: string,
+  imageOfaccident: File,
+
+}

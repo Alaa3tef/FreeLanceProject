@@ -1,0 +1,222 @@
+<div class="container mb-5" style="margin-top: 8%">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">PTSM Report</h2>
+  </div>
+
+  <div class="row">
+    <span class="col-md-12">
+      <label class="mb-2">Date</label>
+      <select class="form-control" [(ngModel)]="date" (change)="DateSelected($event)">
+        <option value="{{ record }}" *ngFor="let record of PTSMList">
+          {{ record | date : "dd-MM-yyyy" }}
+        </option>
+      </select>
+    </span>
+  </div>
+
+  <div class="px-4 px-lg-0 m-5">
+    <div class="pb-5">
+      <div class="container">
+        <div class="row" *ngIf="Data">
+          <div class="col-lg-12 p-5 bg-white rounded shadow-sm mb-4 print-section" *ngFor="let item of PTSMObject">
+            <!-- Shopping cart table -->
+            <div class="table-responsive">
+              <table class="table" style="width: 100%;font-size: 14px">
+                <tr>
+                  <td colspan="5">
+                    <div style="
+                        display: flex;
+                        justify-content: space-evenly;
+                        border-bottom: 2px solid #0e0a27;
+                      ">
+                      <img style="margin-left: 30px" width="150px" src="../../assets/img/ECDC Logo png.png" />
+                      <label class="form-label mt-3" style="
+                          font-weight: bolder;
+                          font-size: larger;
+                          color: #0e0a27;
+                          margin-left: 250px;
+                        ">
+                        الشركة المصرية الصينية للحفر
+                      </label>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="text-center" style="margin-bottom: 30px">
+                  <th colspan="5">Pre-Tour Safety Meeting</th>
+                </tr>
+
+                <tr class="text-center" style="background-color: #8db4e2">
+                  <td colspan="4">General Data</td>
+                </tr>
+                <tr>
+                  <th>Rig Number:</th>
+                  <td>
+                    {{ item.rigNumber }}
+                  </td>
+                  <th>Title:</th>
+                  <td>
+                    {{ item.subjectTitle }}
+                  </td>
+
+
+                </tr>
+                <tr>
+                  <th>Date:</th>
+                  <td>
+                    {{ item.date | date : "dd-MM-yyyy" }}
+                  </td>
+                  <th>Time:</th>
+                  <td>
+                    {{ item.time }}
+                  </td>
+
+                </tr>
+                <tr>
+                  <th>Trainer Name:</th>
+                  <td>
+                    {{ item.trainerName }}
+                  </td>
+                  <th>Number of Trainees:</th>
+                  <td>
+                    {{ item.numsofTrainees }}
+                  </td>
+
+                </tr>
+                <tr>
+                  <th>Subject:</th>
+                  <td colspan="3">
+                    {{ item.subjectContent }}
+                  </td>
+
+                </tr>
+              </table>
+
+              <table class="table" style="width: 100%; margin: 30px 0;font-size: 14px">
+                <tr class="text-center" style="background-color: #8db4e2">
+                  <td colspan="5">Attendance</td>
+                </tr>
+                <tr>
+                  <th style="font-size: 14px">No</th>
+                  <th style="font-size: 14px">Position</th>
+                  <th style="font-size: 14px">Name</th>
+                </tr>
+
+                <!-- <tr *ngFor=" let item of item.attendancesDTO ">
+                  <td>{{ item.no }}</td>
+                  <td>{{ item.position }}</td>
+                  <td>{{ item.name }}</td>
+                </tr> -->
+
+
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">12</th>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+
+              </table>
+
+              <div class="col-12 borderNone" >
+                <table class="table mb-1 borderNone"
+                  style="display: flex; align-items: center; justify-content: center; border: none;">
+                  <tbody>
+                    <tr>
+                      <td scope="row" class="borderNone">
+                        Issue No. 01
+                        <br>
+                        Revision No. 00
+                      </td>
+                      <td class="borderNone" scope="row">
+                        Document No. ECDC-QHSE-FM-60
+                        <br>
+                        Page 1 / 1
+                      </td>
+                      <td class="borderNone" scope="row">
+                        Issue Date: 01/01/2021
+                        <br>
+                        Revision Date: 01/01/2023
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="d-flex justify-content-evenly mx-auto" style="margin-top: 6%;">
+                <div>
+                  <label>QHSE Engineer Signature: </label>
+                  <span style="height: 25px;border-bottom: 1px dashed black;display: block;"></span>
+                </div>
+                <div>
+                  <label>STP Signature : </label>
+                  <span style="height: 25px;border-bottom: 1px dashed black;display: block;"></span>
+                </div>
+              </div>
+            </div>
+            
+            
+        </div>
+        </div>
+
+        <input *ngIf="Data" type="submit" class="btn btn-primary my-4" value="Print Data" (click)="print()" />
+      </div>
+    </div>
+  </div>
+
+</div>

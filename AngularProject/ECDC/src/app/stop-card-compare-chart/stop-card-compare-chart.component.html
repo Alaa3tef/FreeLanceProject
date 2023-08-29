@@ -1,0 +1,62 @@
+<div class="container" style="margin: 8% 0; min-height: 63vh;">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">
+      Stop Card Charts
+    </h2>
+
+  </div>
+  <div class="row mb-5 text-center">
+    <div class="col-md-5">
+      <select name="month1" id="month1" class="form-select" (change)="onMonth1Change($event)">
+        <option value="" disabled selected>Choose Month</option>
+        <option value="1">January</option>
+        <option value="2">February</option>
+        <option value="3">March</option>
+        <option value="4">April</option>
+        <option value="5">May</option>
+        <option value="6">June</option>
+        <option value="7">July</option>
+        <option value="8">August</option>
+        <option value="9">September</option>
+        <option value="10">October</option>
+        <option value="11">November</option>
+        <option value="12">December</option>
+      </select>
+    </div>
+    <div class="col-md-5">
+      <select name="month2" id="month2" class="form-select" (change)="onMonth2Change($event)">
+        <option value="" disabled selected>Choose Month</option>
+        <option value="1">January</option>
+        <option value="2">February</option>
+        <option value="3">March</option>
+        <option value="4">April</option>
+        <option value="5">May</option>
+        <option value="6">June</option>
+        <option value="7">July</option>
+        <option value="8">August</option>
+        <option value="9">September</option>
+        <option value="10">October</option>
+        <option value="11">November</option>
+        <option value="12">December</option>
+      </select>
+    </div>
+    <div class="col-md-1">
+      <button class="btn btn-primary" (click)="onChange($event)"><i
+          class="fa-solid fa-circle-chevron-right"></i></button>
+    </div>
+  </div>
+  <div id="divChart" #divChart *ngIf="temp">
+    <div class="mb-5" id="chart1">
+      <p class="display-6 text-center">Stop Card by Classification</p>
+      <canvas id="myChart"></canvas>
+    </div>
+    <div class="mb-5" id="chart2">
+      <p class="display-6 text-center">Stop Card by Category</p>
+      <canvas id="myChart2"></canvas>
+    </div>
+    <div id="chart3">
+      <p class="display-6 text-center">Stop Card by SWA</p>
+      <canvas id="myChart3"></canvas>
+    </div>
+  </div>
+</div>

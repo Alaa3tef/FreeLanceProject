@@ -1,0 +1,47 @@
+.print-section {
+  width: 21cm;
+  min-height: 27.8cm;
+  // margin: 30mm 45mm 30mm 45mm;
+  margin: auto;
+  margin: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.table-borderless{
+  border-collapse:separate;
+  border-spacing: 0 1rem !important;
+  margin: 0 !important;
+}
+
+table {
+  border-collapse: collapse;
+  // table-layout: fixed;
+  border-color: black !important;
+  font-size: 7px !important;
+  // word-wrap: break-word !important;
+text-align: center;
+
+}
+
+table h6{
+  font-size: 6px !important;
+  margin-bottom: 0;
+
+}
+
+table td //:not(.specailtd)
+{
+  padding: 6px 1px;
+  // word-break:break-all !important;
+  // padding: 2px 10px;
+  white-space: break-all !important;
+
+
+}
+
+// table .specailtd
+// {
+//   padding: 6px 1px;
+// }
+
+

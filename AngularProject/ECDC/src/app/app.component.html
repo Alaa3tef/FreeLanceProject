@@ -1,0 +1,52 @@
+<app-navbar></app-navbar>
+<div class="row" style="margin-right: 0px;">
+  <div *ngIf="IsLoging; then thenBlock else elseBlock"></div>
+  <ng-template #thenBlock>
+    <div class="col-md-3">
+      <app-sidebar></app-sidebar>
+    </div>
+    <div class="col-md-9" style="min-height: 576px !important;">
+      <div *ngIf="IsAdmin" id="notify" class="alert alert-success alert-dismissible fade show col-md-4"
+        style="position: fixed;top: 100px;left: 870px;z-index: 1;margin-top: 0 !important; visibility: hidden;"
+        role="alert">
+      </div>
+      <div id="notify2" class="alert alert-success alert-dismissible fade show col-md-4"
+        style="position: fixed;top: 170px;left: 870px;z-index: 1;margin-top: 0 !important; visibility: hidden;"
+        role="alert">
+      </div>
+      <router-outlet></router-outlet>
+    </div>
+  </ng-template>
+  <ng-template #elseBlock>
+    <div class="col-md-12" style="min-height: 576px !important;">
+      <div *ngIf="IsAdmin" id="notify" class="alert alert-success alert-dismissible fade show col-md-4"
+        style="position: fixed;top: 100px;left: 870px;z-index: 1;margin-top: 0 !important; visibility: hidden;"
+        role="alert">
+      </div>
+      <div id="notify2" class="alert alert-success alert-dismissible fade show col-md-4"
+        style="position: fixed;top: 170px;left: 870px;z-index: 1;margin-top: 0 !important; visibility: hidden;"
+        role="alert">
+      </div>
+      <router-outlet></router-outlet>
+    </div>
+  </ng-template>
+
+  <!-- <div class="col-md-3">
+    <app-sidebar></app-sidebar>
+  </div>
+  <div class="col-md-9" style="min-height: 576px !important;">
+    <div *ngIf="IsAdmin" id="notify" class="alert alert-success alert-dismissible fade show col-md-4"
+      style="position: fixed;top: 100px;left: 870px;z-index: 1;margin-top: 0 !important; visibility: hidden;"
+      role="alert">
+    </div>
+    <div id="notify2" class="alert alert-success alert-dismissible fade show col-md-4"
+      style="position: fixed;top: 170px;left: 870px;z-index: 1;margin-top: 0 !important; visibility: hidden;"
+      role="alert">
+    </div>
+    <router-outlet></router-outlet>
+  </div> -->
+</div>
+
+
+
+<app-footer></app-footer>

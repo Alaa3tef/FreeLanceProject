@@ -1,0 +1,632 @@
+<div class="container" style="margin-top: 8%">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">
+      Safe Journy Plan Report
+    </h2>
+  </div>
+  <label class="mb-2">Serial No.</label>
+  <select class="form-control" [(ngModel)]="SerialNo" (change)="SNSelected($event)">
+    <option value="{{ jmp.journyNumber }}" *ngFor="let jmp of JMP">
+      {{ jmp.journyNumber }} / {{ jmp.date | date: 'dd-MM-yyyy'}}
+    </option>
+  </select>
+
+  <div class="px-4 px-lg-0 m-5">
+    <div class="pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 p-5 bg-white rounded shadow-sm mb-4 print-section" *ngIf="JMPRecord">
+            <!-- Shopping cart table -->
+            <div class="table-responsive">
+              <table class="border" style="width: 100%; margin-bottom: 10px;">
+                <tr>
+                  <div style="display: flex;">
+                    <img style="margin-left: 30px;" width="100px" src="../../assets/img/ECDC Logo png.png" />
+                    <label class="form-label mt-3"
+                      style="font-weight: bolder; font-size: large; color: black; margin-left: 130px;">
+                      Safe Journy Plan
+                    </label>
+
+                  </div>
+
+                </tr>
+
+              </table>
+
+
+
+              <div style="display: flex; justify-content: space-between">
+                <div class="ml-3 d-inline-block align-middle mb-2">
+                  <label>الرقم المسلسل/SN :</label>
+                  {{ JMPRecord.journyNumber }}
+                </div>
+                <div class="ml-3 d-inline-block align-middle mb-2">
+                  <label>الشركة/Company :</label>
+                  {{ JMPRecord.company }}
+                </div>
+              </div>
+
+              <!-- <div class="row"> -->
+              <div class="d-flex">
+                <div class="col-8 me-1">
+                  <table style="border: 1px solid black;table-layout: auto;" class="table table-bordered">
+                    <thead style="background-color: black; color: white;">
+                      <tr>
+                        <th colspan="3">
+                          Journey Details /
+                          تفاصيل الرحلة
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr style="border-bottom: 1px;">
+                        <td scope="row">
+                          <div class="ml-3 align-middle">
+                            <h6 class="mb-1">
+                              <span>
+                                • Journey Purpose :
+                              </span>
+                              <br>
+                              <span>
+                                • Night Driving?
+                              </span>
+                              <br>
+                              <span>
+                                • communication Method
+                              </span>
+                              <br>
+                              <span>
+                                • Vehicle Daily Check ?
+                              </span>
+                              <br>
+                              <span>
+                                • Manager Name:
+                              </span>
+                              <br>
+                              <span>
+                                • Date:
+                              </span>
+                            </h6>
+                          </div>
+                        </td>
+                        <td scope="row" class="text-center">
+                          <div class="ml-3 d-inline-block align-middle">
+                            <h6 class="mb-1">
+                              <span>
+                                {{ JMPRecord.purposeOfJourny }}
+                              </span>
+                              <br>
+                              <span>
+                                {{ JMPRecord.reachBeforeDark=="Yes"? "No" : "Yes"}} </span>
+                              <br>
+                              <span>
+                                {{ JMPRecord.communicationMethod }}</span>
+                              <br>
+                              <span>
+                                {{ JMPRecord.inspectionVechile }}</span>
+                              <br>
+                              <span>
+                                {{ JMPRecord.journyManagerName }}</span>
+                              <br>
+                              <span>
+                                {{ JMPRecord.date |date: 'dd-MM-yyyy' }}</span>
+                            </h6>
+                          </div>
+                        </td>
+                        <td scope="row" dir="rtl">
+                          <div class="ml-3 d-inline-block align-middle">
+                            <h6 class="mb-1 right">
+                              <span>
+                                • الغرض من الرحلة
+                              </span>
+                              <br>
+                              <span>
+                                • قيادة ليلية ؟
+                              </span>
+                              <br>
+                              <span>
+                                • وسائل الإتصال المتاحة ؟
+                              </span>
+                              <br>
+                              <span>
+                                • التفتيش اليومي علي السيارة ؟
+                              </span>
+                              <br>
+                              <span>
+                                • اسم مديرالرحلة
+                              </span>
+                              <br>
+                              <span>
+                                • التاريخ
+                              </span>
+                            </h6>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table style="border: 1px solid black;table-layout: auto;" class="table table-bordered">
+                    <tbody>
+                      <tr style="border-bottom: 1px;">
+                        <td scope="row">
+                          <div class="ml-3 align-middle">
+                            <h6 class="my-2">
+                              <span>
+                                • Signature :
+                              </span>
+                            </h6>
+                          </div>
+                        </td>
+                        <td scope="row" class="text-center">
+                          <div class="ml-3 d-inline-block align-middle">
+                            <h6 class="my-2">
+                              <span>
+                                --------------</span>
+                            </h6>
+                          </div>
+                        </td>
+                        <td scope="row" dir="rtl">
+                          <div class="ml-3 d-inline-block align-middle">
+                            <h6 class="my-2 right">
+                              <span>
+                                • التوقيع
+                              </span>
+                            </h6>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-4" style="width:228px !important;">
+                  <table class="table table-bordered mb-1">
+                    <thead style="background-color: black; color: white;">
+                      <tr>
+                        <th scope="row" colspan="2">
+                          <div class="ml-3 d-inline-block align-middle">
+                            Passengers Names & telephones
+                            <label>
+                              أسماء الركاب & أرقام التليفونات
+                            </label>
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngIf="JMPRecord.passengers.length==0">
+                        No Passengers
+                      </tr>
+                      <tr *ngIf="JMPRecord.passengers.length>0">
+                        <td scope="row" colspan="2">
+                          <table class="table">
+                            <tr *ngFor="let items of JMPRecord.passengers">
+                              <td style="border-right: 1px solid black; ">
+                                {{ items.name }}
+                              </td>
+                              <td style="padding-left: 5px;">
+                                {{ items.telephone!=null?items.telephone:"No Phone" }}
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="table table-bordered mb-1">
+                    <thead style="background-color: black; color: white;">
+                      <tr>
+                        <th scope="row" colspan="2">
+                          <div class="ml-3 d-inline-block align-middle">
+                            Depature Date / تاريخ المغادرة
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td scope="row" colspan="2">
+                          <div class="mb-1">
+                            <h6 class="mb-1">
+                              {{ JMPRecord.departureDate | date: 'dd-MM-yyyy'}}
+                            </h6>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="table table-bordered mb-1">
+                    <thead style="background-color: black; color: white;">
+                      <tr>
+                        <th scope="row" colspan="2">
+                          <div class="ml-3 d-inline-block align-middle">
+                            L.Manager No. رقم المدير المباشر
+                            <span class="bg-white text-black" style="border: 1px solid white;">
+                              {{ JMPRecord.managerNumber}}
+                            </span>
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
+              </div>
+              <hr>
+              <div class="col-12">
+                <table class="table table-bordered mb-1">
+                  <thead style="background-color: black; color: white;">
+                    <tr>
+                      <th scope="row" colspan="2">
+                        <div class="ml-3 d-inline-block align-middle">
+                          Driver Details / تفاصيل السائق
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            Driver Name :
+                            <span>{{ JMPRecord.driverName }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            Driver Mobile Number :
+                            <span>{{ JMPRecord.driverPhoneNumber
+                              }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            Driver Licence No. :
+                            <span>{{ JMPRecord.driverLicenceNumber
+                              }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            Driver Licence Expire Date :
+                            <span>{{
+                              JMPRecord.driverLicenceExpireDate | date: 'dd-MM-yyyy'}}</span>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <hr>
+              <div class="col-12">
+                <table class="table table-bordered mb-1">
+                  <thead style="background-color: black; color: white;">
+                    <tr>
+                      <th scope="row" colspan="4">
+                        <div class="ml-3 d-inline-block align-middle">
+                          Vehicle Details / تفاصيل السيارة
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            Vehicle Type :
+                            <span>{{ JMPRecord.vehicleType }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            Speed Limit :
+                            <span>
+                              {{ JMPRecord.speedLimit }} km/h
+                            </span>
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            Vehicle Plate No. :
+                            <span>{{ JMPRecord.vehicleNumber
+                              }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            Vehicle Color :
+                            <span>{{ JMPRecord.vehicleColor
+                              }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <hr>
+              <div class="col-12">
+                <table class="table table-bordered mb-1">
+                  <thead style="background-color: black; color: white;">
+                    <tr>
+                      <th scope="row" colspan="4">
+                        <div class="ml-3 d-inline-block align-middle">
+                          Route Details / تفاصيل الطريق
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            Route Name :
+                            <span>{{ JMPRecord.routeName }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            Route Distance :
+                            <span>
+                              {{ JMPRecord.distance }} km.
+                            </span>
+
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            Route Duration :
+                            <span>
+                              {{ JMPRecord.time }} hour
+                            </span>
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            Destination Point :
+                            <span>{{
+                              JMPRecord.destination}}</span>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <hr>
+              <div class="col-12">
+                <table class="table table-bordered mb-1">
+                  <thead style="background-color: black; color: white;">
+                    <tr>
+                      <th scope="row" colspan="2">
+                        <div class="ml-3 d-inline-block align-middle">
+                          Transit Points / نقاط الاستراحة
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr id="lightgray" class="text-center"
+                      style="font-weight: bold;background-color: lightgray;color: dimgrey;">
+                      <td scope="row">
+                        Transit Point Name
+                      </td>
+                      <td scope="row">
+                        Note
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            <span>{{ JMPRecord.restLocationNames
+                              }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            <span class="ms-1 ">
+                            </span>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <hr>
+              <div class="col-12">
+                <table class="table table-bordered mb-1">
+                  <thead style="background-color: black; color: white;">
+                    <tr>
+                      <th scope="row" colspan="2">
+                        <div class="ml-3 d-inline-block align-middle">
+                          Estimated TimeLine / المسار الزمني المتوقع
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            Estimated Depature Date :
+                            <span>{{ JMPRecord.estimatedArriveDate |
+                              date: 'dd-MM-yyyy' }}</span>
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            Estimated Arrival Time :
+                            <span>
+                              {{ JMPRecord.estimatedArriveTime }}
+                            </span>
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <hr>
+              <div class="col-12">
+                <table class="table table-bordered mb-1">
+                  <thead style="background-color: black; color: white;">
+                    <tr>
+                      <th scope="row" colspan="2">
+                        <div class="ml-3 d-inline-block align-middle">
+                          Instructions / تعليمات
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            • Follow Speed Limits.
+                            <br>
+                            • Ensure that seat belts are worn by All, before starting the journey.
+                            <br>
+
+                            • Contractor's driver shall call radio room.
+                            <br>
+
+                            • Desert military pass is required to travel to Obaid. Bed, AESW, Neag 1 fields.
+                            <br>
+
+                            • Radio operator to report to Journey manager if driver being late for more than one hour.
+                          </h6>
+                        </div>
+                      </td>
+                      <td scope="row" dir="rtl">
+                        <div class="mb-1">
+                          <h6 class="mb-1">
+                            • التزم بالسرعات المقررة.
+                            <br>
+                            • التأكد من أن جميع الركاب قاموا بربط
+                            أحزمة الأمان قبل التحرك.
+                            <br>
+
+                            • النسخة الأصلية لغرفة الراديو ونسخة
+                            للسائق. ونسخة للأمن ونسخة لمشرف الرحلة.
+                            <br>
+
+                            • على سائق المقاول الأتصال بغرفة
+                            الراديو.
+
+                            <br>
+
+                            • الحصول على تصريح الحدود في رحلات
+                            (من/إلى) بدر /الأبيض/علم الشاويش/نياج 1.
+                            <br>
+
+                            • على مشغل الراديو إبلاغ مدير الرحلة
+                            إذا تأخر وصول السائق عن الموعد المحدد بساعة.
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <hr>
+              <div class="col-12 mt-2">
+                <table class="table table-borderless mb-1"
+                  style="display: flex; align-items: center; justify-content: center;">
+                  <tbody>
+                    <tr>
+                      <td scope="row">
+                        Issue No. 05
+                        <br>
+                        Revision No. 00
+                      </td>
+                      <td scope="row">
+                        Document No. ECDC-QHSE-FM-106
+                        <br>
+                        Page 1 / 1
+                      </td>
+                      <td scope="row">
+                        Issue Date: 01/01/2023
+                        <br>
+                        Revision Date: 00/00/0000
+                      </td>
+                    </tr>
+                  </tbody>
+                  <!-- <tbody>
+                    <tr>
+                      <td scope="row">
+                        Document No. ECDC-QHSE-FM-106
+                        <br>
+                        Page 1 / 1
+                      </td>
+                      <td scope="row" class="text-center">
+                        Issue No. 05
+                        <br>
+                        Revision No. 00
+                      </td>
+                      <td scope="row" class="text-end">
+                        Issue Date: 01/01/2023
+                        <br>
+                        Revision Date: 00/00/0000
+                      </td>
+                    </tr>
+                  </tbody> -->
+                </table>
+              </div>
+              <hr>
+              <div class="col-12 mt-2">
+                <table class="table table-borderless mb-1">
+                  <tbody>
+                    <tr>
+                      <td scope="row">
+                        <img style="width: 40px;" src="../../assets/img/SpeedLimitVector.png" alt="">
+                      </td>
+                      <td scope="row" class="text-center">
+                        <img style="width: 40px;" src="../../assets/img/drugs-and-alcohol.png" alt="">
+                      </td>
+                      <td scope="row" class="text-end">
+                        <img style="width: 40px;" src="../../assets/img/SeatBelt.png" alt="">
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- </div> -->
+            </div>
+            <!-- End -->
+          </div>
+        </div>
+        <input *ngIf="JMPRecord" type="submit" class="btn btn-primary my-4" value="Print Data" (click)="print()" />
+      </div>
+    </div>
+  </div>
+</div>

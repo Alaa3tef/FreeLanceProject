@@ -1,0 +1,52 @@
+<div class="container mb-5" style="margin-top: 8%;">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">
+      Driver
+    </h2>
+
+  </div>
+  <a routerLink="/Dashboard/Driver/Add" class="btn btn-primary me-3">Add New Driver</a>
+  <a (click)="Download()" class="btn btn-primary">Export Data</a>
+  <table class="table table-striped text-center">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Phone Number</th>
+        <th>Licence Expire Date</th>
+        <th>Licence No</th>
+        <th *ngIf="IsAdmin||IsRadio">Actions</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let record of (DriverList | async)">
+      <tr>
+        <td>{{record.id}}</td>
+        <td>{{record.name}}</td>
+        <td>{{record.phoneNumber}}</td>
+        <td>{{record.licenceExpireData | date: 'dd-MM-yyyy'}}</td>
+        <td>{{record.licenceNumber}}</td>
+        <td *ngIf="IsAdmin||IsRadio">
+          <a routerLink="/Dashboard/Driver/Edit/{{record.id}}" class="m-2 h4" style="color: #434F78;"><i class="fa-solid fa-pen-to-square"></i></a>
+          <a (click)="DeleteDriver(record)" class="m-2 h4" style="color: #f3c93e;cursor: pointer !important;"><i class="fa-solid fa-trash"></i></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="mx-auto mb-3 text-center d-flex align-items-center justify-content-center" *ngIf="countOfPage>1">
+    <button class="btn  btn-outline-primary mx-3" (click)="getpages(1)">
+      <i class="fa-solid fa-angles-left"></i>
+    </button>
+    <button class="btn  btn-outline-primary me-3" (click)="gotleft()">
+      <i class="fa-solid fa-angle-left"></i>
+    </button>
+
+    <div class="me-3">{{indexofPages}} of {{countOfPage}}</div>
+
+    <button class="btn  btn-outline-primary me-3" (click)="gotoright()">
+      <i class="fa-solid fa-angle-right"></i>
+    </button>
+    <button class="btn  btn-outline-primary me-3" (click)="getpages(countOfPage)">
+      <i class="fa-solid fa-angles-right"></i>
+    </button>
+  </div>
+</div>

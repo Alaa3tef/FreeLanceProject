@@ -1,0 +1,277 @@
+<div class="container mb-5" style="margin-top: 8%;">
+  <div class="heading_container heading_center d-flex">
+    <h2 class="mx-auto my-4">
+      Edit Incident
+    </h2>
+    <!-- {{accident | json}} -->
+  </div>
+  <div class="row">
+    <form [formGroup]="accidentForm" id="print-section" (ngSubmit)="submitData()"
+      class="col-md-10 mx-auto d-flex flex-wrap">
+
+      <table class="table">
+        <tr>
+          <td colspan="2">
+            <div class="form-group">
+              <label class="form-label" for="rigId">Rig Number: </label>
+              <select name="rigId" formControlName="rigId" [(ngModel)]="accident.rigId" id="rigId" class="form-select">
+                <option value="" disabled selected>Choose Rig Number</option>
+                <option *ngFor="let item of rigList" value="{{item.id}}">Rig-{{item.number}}</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div class="form-group   ">
+              <label>Date Of Event :</label>
+              <input id="Date" type="date" formControlName="dateOfEvent" class="form-control"
+                [(ngModel)]="accident.dateOfEvent" [ngModel]="accident.dateOfEvent | date: 'yyyy-MM-dd'" />
+              <div *ngIf="dateOfEvent?.invalid && (dateOfEvent?.dirty || dateOfEvent?.touched)">
+                <small class="text-danger" *ngIf="dateOfEvent?.errors?.['required']">
+                  Date Of Event is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div class="from-group  ">
+              <label for="classificationOfAccidentId" class="form-label">Classification Of Incident :</label>
+              <select name="classificationOfAccidentId" formControlName="classificationOfAccidentId"
+                [(ngModel)]="accident.classificationOfAccidentId" id="classificationOfAccidentId" class="form-select">
+                <option value="" disabled selected>Choose Classification Of Incident</option>
+                <option *ngFor="let item of classificationOfAccidentList" value="{{item.id}}">{{item.name}}</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label>Time Of Event :</label>
+              <input type="time" class="form-control" formControlName="timeOfEvent"
+                [(ngModel)]="accident.timeOfEvent" />
+              <div *ngIf="timeOfEvent?.invalid && (timeOfEvent?.dirty || timeOfEvent?.touched)">
+                <small class="text-danger" *ngIf="timeOfEvent?.errors?.['required']">
+                  Time Of Event is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div class="form-group">
+              <label class="form-label" for="accidentCausesId">Incident Causes : </label>
+              <select name="accidentCausesId" formControlName="accidentCausesId" [(ngModel)]="accident.accidentCausesId"
+                id="accidentCausesId" class="form-select">
+                <option value="" disabled selected>Choose Incident Causes</option>
+                <option *ngFor="let item of accidentCausesList" value="{{item.id}}">{{item.name}}</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div class="form-group  ">
+              <label class="form-label">Driller Name : </label>
+              <input type="text" formControlName="drillerName" class="form-control"
+                [(ngModel)]="accident.drillerName" />
+              <div *ngIf="drillerName?.invalid && (drillerName?.dirty || drillerName?.touched)">
+                <small class="text-danger" *ngIf="drillerName?.errors?.['required']">
+                  Driller Name is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <div class="form-group">
+              <label class="form-label" for="preventionCategoryId">Prevention Category :</label>
+              <select name="preventionCategoryId" formControlName="preventionCategoryId"
+                [(ngModel)]="accident.preventionCategoryId" id="preventionCategoryId" class="form-select">
+                <option value="" disabled selected>Choose Prevention </option>
+                <option *ngFor="let item of preventionCategoryList" value="{{item.id}}">{{item.name}}</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div class="form-group  ">
+              <label class="form-label">Incident Location : </label>
+              <input type="text" formControlName="accidentLocation" [(ngModel)]="accident.accidentLocation"
+                class="form-control" />
+              <div *ngIf="accidentLocation?.invalid && (accidentLocation?.dirty || accidentLocation?.touched)">
+                <small class="text-danger" *ngIf="accidentLocation?.errors?.['required']">
+                  Incident Location is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <div class="from-group">
+              <label for="typeOfInjuryID" class="form-label">Type Of Injury :</label>
+              <select name="typeOfInjuryID" formControlName="typeOfInjuryID" [(ngModel)]="accident.typeOfInjuryID"
+                id="typeOfInjuryID" class="form-select">
+                <option value="" disabled selected>Choose Type Of Injury</option>
+                <option *ngFor="let item of typeOfInjuryList" value="{{item.id}}">{{item.name}}</option>
+              </select>
+            </div>
+          </td>
+          <td colspan="2">
+            <div class="from-group">
+              <label for="violationCategoryId" class="form-label">Violation Category :</label>
+              <select name="violationCategoryId" formControlName="violationCategoryId"
+                [(ngModel)]="accident.violationCategoryId" id="violationCategoryId" class="form-select">
+                <option value="" disabled selected>Choose Violation Category</option>
+                <option *ngFor="let item of violationCategoryList" value="{{item.id}}">{{item.name}}</option>
+              </select>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label class="form-label m-0 pb-0">QHSE Employee Code: </label>
+            <input list="QHSEmenace" autocomplete="off" formControlName="qhseEmpCode" [(ngModel)]="accident.qhseEmpCode" name="menace" class="form-control"
+              (input)="selectedMenace($event)">
+            <datalist id="QHSEmenace">
+              <option *ngFor="let menace of QHSECodeList">{{menace.empCode}} </option>
+            </datalist>
+          </td>
+          <td>
+            <div class="from-group">
+              <label for="qhsePositionId" class="form-label">QHSE Position :</label>
+              <input class="form-control" [value]="QHSE_Position" disabled />
+              <input name="qhsePositionId" formControlName="qhsePositionId" id="qhsePositionId" class="form-control"
+                [(ngModel)]="QHSEPositionID" hidden />
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="qhsePositionNameId">Name :</label>
+              <input class="form-control" [value]="QHSE_Name" disabled />
+              <input name="qhsePositionNameId" formControlName="qhsePositionNameId" id="qhsePositionNameId"
+                class="form-control" [(ngModel)]="QHSE_NameID" hidden />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label class="form-label m-0 pb-0">Tool Pusher Code : </label>
+            <input list="ToolPushermenace" autocomplete="off" formControlName="pusherEmpCode" [(ngModel)]="accident.pusherEmpCode" name="menace" class="form-control"
+              (input)="selectedMenaceTool($event)">
+            <datalist id="ToolPushermenace">
+              <option *ngFor="let menace of ToolPusherCodeList">{{menace.empCode}} </option>
+            </datalist>
+          </td>
+          <td>
+            <div class="from-group">
+              <label for="toolPusherPositionId" class="form-label">Tool Pusher Code :</label>
+              <input class="form-control" [value]="PusherPosition" disabled />
+              <input name="toolPusherPositionId" formControlName="toolPusherPositionId" id="toolPusherPositionId"
+                class="form-control" [(ngModel)]="PusherPositionID" hidden />
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <label class="form-label" for="toolPusherPositionNameId">Name :</label>
+              <input class="form-control" [value]="Pusher_Name" disabled />
+              <input name="toolPusherPositionNameId" formControlName="toolPusherPositionNameId"
+                id="toolPusherPositionNameId" class="form-control" [(ngModel)]="Pusher_NameId" hidden />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <label for="Description">Description Of The Event:</label>
+            <textarea class="form-control " formControlName="descriptionOfTheEvent"
+              [(ngModel)]="accident.descriptionOfTheEvent" rows="4" id="Description" name="text"></textarea>
+            <div
+              *ngIf="descriptionOfTheEvent?.invalid && (descriptionOfTheEvent?.dirty || descriptionOfTheEvent?.touched)">
+              <small class="text-danger" *ngIf="descriptionOfTheEvent?.errors?.['required']">
+                Description Of The Event is required
+              </small>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="form-group   ">
+              <label class="form-label">Immediate Action Taken  : </label>
+              <input type="text" formControlName="immediateActionType" [(ngModel)]="accident.immediateActionType"
+                class="form-control" />
+              <div *ngIf="immediateActionType?.invalid && (immediateActionType?.dirty || immediateActionType?.touched)">
+                <small class="text-danger" *ngIf="immediateActionType?.errors?.['required']">
+                  immediateActionType is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="form-group  ">
+              <label for="DirectCauses" class="form-label">Direct Causes : </label>
+              <textarea class="form-control" formControlName="directCauses" [(ngModel)]="accident.directCauses" rows="4"
+                id="DirectCauses" name="text"></textarea>
+              <div *ngIf="directCauses?.invalid && (directCauses?.dirty || directCauses?.touched)">
+                <small class="text-danger" *ngIf="directCauses?.errors?.['required']">
+                  Direct Causes is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="form-group">
+              <label class="form-label">Root Causes : </label>
+              <textarea class="form-control" formControlName="rootCauses" [(ngModel)]="accident.rootCauses" rows="4"
+                id="Description" name="text"></textarea>
+              <div *ngIf="rootCauses?.invalid && (rootCauses?.dirty || rootCauses?.touched)">
+                <small class="text-danger" *ngIf="rootCauses?.errors?.['required']">
+                  rootCauses is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="form-group   ">
+              <label class="form-label">Recommendations : </label>
+              <textarea class="form-control" formControlName="recommendations" [(ngModel)]="accident.recommendations"
+                rows="4" id="Description" name="text"></textarea>
+              <div *ngIf="recommendations?.invalid && (recommendations?.dirty || recommendations?.touched)">
+                <small class="text-danger" *ngIf="recommendations?.errors?.['required']">
+                  recommendations is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <!-- <tr>
+          <td colspan="3">
+            <div class="form-group">
+              <label class="form-label">Pictures : </label>
+              <input type="file" formControlName="imageOfaccident" name="imageOfaccident"
+                [(ngModel)]="accident.pictures" class="form-control" (change)="GetImagePath($event)" />
+              <div *ngIf="imageOfaccident?.invalid && (imageOfaccident?.dirty || imageOfaccident?.touched)">
+                <small class="text-danger" *ngIf="imageOfaccident?.errors?.['required']">
+                  pictures is required
+                </small>
+              </div>
+            </div>
+          </td>
+        </tr> -->
+      </table>
+
+
+      <input type="submit" class="btn btn-success me-3" value="Submit" />
+      <!-- <input type="submit" class="btn btn-primary me-3" value="Export Data" (click)="Download()" /> -->
+      <input routerLink="/PrintAccident" type="submit" class="btn btn-primary" value="Show Data">
+
+    </form>
+  </div>
+</div>

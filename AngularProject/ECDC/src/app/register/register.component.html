@@ -1,0 +1,81 @@
+<div class="container">
+
+  <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
+          <div class="card mt-5">
+
+            <div class="card-body">
+              <div class="d-flex justify-content-center mt-5">
+                <img style="width: 150px;" src="../../assets/img/ECDC Logo Edit png.png" alt="">
+              </div>
+              <div class="py-2">
+                <h5 class="card-title text-center pb-0 fs-4">Create an Account</h5>
+                <p class="text-center small">Enter your personal details to create account</p>
+              </div>
+
+              <form [formGroup]="registerForm" (ngSubmit)="submitData()" class="row g-3 needs-validation">
+
+                <div class="col-12">
+                  <label for="yourUsername" class="form-label">Username</label>
+                  <div class="input-group has-validation">
+                    <input type="text" formControlName="userName" name="userName" class="form-control" id="userName"
+                      required>
+
+                  </div>
+                  <div *ngIf="userName?.errors && userName?.touched">
+                    <small class="text-danger" *ngIf="userName?.errors?.['required']">User Name is required</small>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" formControlName="password" name="password" class="form-control" id="password"
+                    required>
+                  <div *ngIf="password?.invalid && (password?.dirty || password?.touched)">
+                    <small class="text-danger" *ngIf="password?.errors?.['required']">
+                      Password is required
+                    </small>
+                    <small class="text-danger" *ngIf="password?.errors?.['pattern']">
+                      Password must be only 6 characters
+                      <br>
+                      <span>ex:1234aa</span>
+                    </small>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <label for="Role" class="form-label">Select Role</label>
+                  <select type="text" formControlName="Role" name="name" class="form-control" id="Role" required>
+                    <option value="" disabled selected>Choose Role</option>
+                    <option *ngFor="let item of roleslist" value="{{item.name}}">{{item.name}}</option>
+                  </select>
+                  <div *ngIf="Role?.errors && Role?.touched">
+                    <small class="text-danger" *ngIf="Role?.errors?.['required']">Role is required</small>
+                  </div>
+                </div>
+                <!-- <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" name="terms" type="checkbox" value="" id="acceptTerms" required>
+                    <label class="form-check-label" for="acceptTerms">I agree and accept the <a href="#">terms and conditions</a></label>
+                    <div class="invalid-feedback">You must agree before submitting.</div>
+                  </div>
+                </div> -->
+                <div class="col-12">
+                  <button class="btn btn-primary w-100" type="submit" [disabled]="registerForm.invalid" routerLink="/Register">Create Account</button>
+                </div>
+                <div class="col-12">
+                  <p class="small mb-0">Already have an account? <a routerLink="/Login">Log in</a></p>
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</div>

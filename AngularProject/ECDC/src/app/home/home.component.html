@@ -1,0 +1,57 @@
+<div class="container" style="margin-top: 8%">
+  <div class="mb-5">
+    <p class="display-5 text-center">Arrived Journy Plan</p>
+    <div>
+      <div class="row mt-4" *ngIf="ListOfSJPs.value.length">
+        <div class="col-lg-4" *ngFor="let item of (SJPsList | async)">
+          <div class="card card-margin">
+            <div class="card-header no-border">
+              <h5 class="card-title">Serial Number : {{item.journyNumber}}</h5>
+            </div>
+            <div class="card-body pt-0">
+              <div class="widget-49">
+                <div class="widget-49-title-wrapper">
+                  <div class="widget-49-date-primary">
+                    <i class="fa-solid fa-car-on fa-fade fs-3" style="color: #012970;"></i>
+                  </div>
+                  <div class="widget-49-meeting-info">
+                    <span class="widget-49-pro-title"><strong style="color: #012970;">Driver</strong> :
+                      {{item.driverName}}</span>
+                    <span class="widget-49-meeting-time">{{item.arrivalTime | date:'mediumTime'}}</span>
+                  </div>
+                </div>
+                <div class="fs-5 mt-3 ms-5">Journy Plan Arrived</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top: 5%;" class="mx-auto text-center" *ngIf="!ListOfSJPs.value.length">
+        <i class="fa-solid fa-bell text-muted mb-5" style="font-size: 200px;"></i>
+        <p class="fs-5 fst-italic text-muted">No Arrived Journy Plan Yet!</p>
+      </div>
+
+      <div class="mx-auto mb-3 text-center d-flex align-items-center justify-content-center" *ngIf="countOfPage>1">
+        <button class="btn  btn-outline-primary mx-3" (click)="getpages(1)">
+          <i class="fa-solid fa-angles-left"></i>
+        </button>
+        <button class="btn  btn-outline-primary me-3" (click)="gotleft()">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+
+        <div class="me-3">{{indexofPages}} of {{countOfPage}}</div>
+
+        <button class="btn  btn-outline-primary me-3" (click)="gotoright()">
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+        <button class="btn  btn-outline-primary me-3" (click)="getpages(countOfPage)">
+          <i class="fa-solid fa-angles-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div>
+    <app-sjptoday></app-sjptoday>
+  </div>
+</div>

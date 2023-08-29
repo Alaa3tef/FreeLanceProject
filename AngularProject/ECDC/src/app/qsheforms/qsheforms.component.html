@@ -1,0 +1,31 @@
+<div class="container mb-5" style="margin-top: 8%;">
+    <div class="heading_container heading_center d-flex">
+      <h2 class="mx-auto my-4">
+        QSHE Forms
+      </h2>
+    </div>
+
+
+    <div class="row mt-5">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Files</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr *ngFor="let item of qshe; let i = index ">
+                <th scope="row">{{i+1}}</th>
+                <td>{{item}}</td>
+
+                <td><button class="btn btn-primary"  (click)="downloadFile(item)"><i class="fa-solid fa-download fa-bounce fs-4"></i></button></td>
+
+              </tr>
+            </tbody>
+          </table>
+    </div>
+  </div>
+
+

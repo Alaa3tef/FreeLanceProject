@@ -1,0 +1,43 @@
+<div class="row my-5" *ngIf="(SJPsList| async)?.length">
+  <p class="display-5 text-center mb-4">Journy Plan of Today</p>
+  <div class="col-lg-4" *ngFor="let item of (SJPsList | async)">
+    <div class="card card-margin">
+      <div class="card-header no-border">
+        <h5 class="card-title">Serial Number : {{item.journyNumber}}</h5>
+      </div>
+      <div class="card-body pt-0">
+        <div class="widget-49">
+          <div class="widget-49-title-wrapper">
+            <div class="widget-49-date-primary">
+              <i class="fa-solid fa-car-on fa-fade fs-3" style="color: #012970;"></i>
+            </div>
+            <div class="widget-49-meeting-info">
+              <span class="widget-49-pro-title"><strong style="color: #012970;">Driver</strong> :
+                {{item.driverName}}</span>
+              <span class="widget-49-meeting-time">{{item.enterTime | date:'mediumTime'}}</span>
+            </div>
+          </div>
+          <div class="fs-5 mt-3 ms-5">Journy Plan Today</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mx-auto mb-3 text-center d-flex align-items-center justify-content-center" *ngIf="countOfPage>1">
+    <button class="btn  btn-outline-primary mx-3" (click)="getpages(1)">
+      <i class="fa-solid fa-angles-left"></i>
+    </button>
+    <button class="btn  btn-outline-primary me-3" (click)="gotleft()">
+      <i class="fa-solid fa-angle-left"></i>
+    </button>
+
+    <div class="me-3">{{indexofPages}} of {{countOfPage}}</div>
+
+    <button class="btn  btn-outline-primary me-3" (click)="gotoright()">
+      <i class="fa-solid fa-angle-right"></i>
+    </button>
+    <button class="btn  btn-outline-primary me-3" (click)="getpages(countOfPage)">
+      <i class="fa-solid fa-angles-right"></i>
+    </button>
+  </div>
+</div>

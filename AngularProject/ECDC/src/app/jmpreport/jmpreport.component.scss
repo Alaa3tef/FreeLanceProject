@@ -1,0 +1,43 @@
+.print-section {
+  width: 21cm;
+  height: 27.8cm;
+  // margin: 30mm 45mm 30mm 45mm;
+  margin: auto;
+  margin: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  border-color: black !important;
+  font-size: 10px !important;
+  overflow-wrap: break-word !important;
+  // word-wrap: break-word !important;
+
+}
+
+table h6{
+  font-size: 11px !important;
+
+}
+
+table td {
+  // word-break:break-all !important;
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+  white-space: break-all !important;
+
+}
+
+hr{
+  border:1px solid black !important;
+
+  margin: 5px 0 !important;
+}
+
+// table th {
+//   padding-top: 1px !important;
+//   padding-bottom: 1px !important;
+// }
